@@ -14,3 +14,5 @@
 * Evaluation audit: known legacy-chillu aliases excluded from missing-target scores in protocol v2. Initial v1 reports are retained; v2 recomputation is not a new independent test set.
 
 Every output must remain `provenance: model-generated`, `confirmed: false` initially, `not_observed_in_photo: true`, and `uncertainty: uncalibrated`. Human acceptance does not turn generated geometry into observed source handwriting. [Integration contract](docs/APP_INTEGRATION.md).
+
+[Audit and current font-output/checkpoint licensing distinction](reports/AUDIT.md).

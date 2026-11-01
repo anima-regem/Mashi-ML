@@ -54,7 +54,7 @@ def main():
               "unit_tests": {"passed": 6, "command": "PYTHONPATH=src python -m unittest discover -s tests -v"},
               "qualitative_review": ["Viewed Chilanka fixed-tier grid", "Viewed Noto Sans worst-target grid", "Fragmented contours/lost ink visible and documented"],
               "pilot_reproduction": json.loads((ROOT / "reports/pilot-reproduction.json").read_text())["matches_handoff"],
-              "github_ci": "Prepared workflow; not run because public repository creation is pending explicit publication approval", "app_workspace_modified": False}
+              "github_ci": "Workflow prepared; exact remote commit/run status is verified separately during publication", "app_workspace_modified": False}
     (ROOT / "reports/verification.json").write_text(json.dumps(report, indent=2) + "\n")
     print(json.dumps(report, indent=2))
 

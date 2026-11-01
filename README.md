@@ -33,3 +33,5 @@ Only acquisition needs network access. Training/evaluation/inference run offline
 The local selected checkpoint is **61,793,153 bytes**, SHA256 `0165690674d47818bd66055cf66f7b8861bdbb557f964bea56154b33180ea045`. Font binaries, raster corpus and weights stay outside Git; no weight redistribution licence is presumed from OFL. Reproduction generates the checkpoint locally. Original source code is MIT; the complete font notices and model licensing caveats remain separate.
 
 The integration demo uses rendered-font fixtures, not a person's handwriting. No app files were modified; the 64x64 pilot requires an explicit scale/baseline adapter for this 96x64 checkpoint. All predictions are uncertain **generated** proposals, never recovered/observed handwriting. See the model card before use.
+
+[Post-training audit, uncertainty and publication scope](reports/AUDIT.md).

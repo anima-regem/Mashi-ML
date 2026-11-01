@@ -66,7 +66,7 @@ def predict(checkpoint, request_path, output):
               "request_sha256": sha256(request_path), "observations": source_records, "diagnostics": diagnostics,
               "normalization": {"width": WIDTH, "height": HEIGHT, "em_pixels": EM, "baseline_y": BASELINE, "ink": "black"},
               "suggestions": suggestions, "status": "generated-research-suggestions-awaiting-review",
-              "licensing": "Local research checkpoint. Keep font lineage/notice records; no unrestricted licence for model-derived fonts is asserted.",
+              "licensing": "OFL-derived font outputs require OFL compliance. Local checkpoint distribution remains unclassified; see reports/AUDIT.md. Keep source lineage/notices.",
               "limitations": ["No real handwriting evaluation", "No shaping rules or font metrics inferred", "No calibrated confidence probability", "No automatic font export"]}
     (output / "suggestions.json").write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n")
     return result

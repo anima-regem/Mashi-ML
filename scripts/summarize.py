@@ -151,6 +151,7 @@ The historical 55-form pilot was independently reproduced using its read-only or
 
 Stop here because global low-rank averages fragment contours and the independent-family corpus is small; more epochs cannot fix those assumptions. Next: acquire additional fully audited independent families when RIT rate limits clear; split them before experimentation; test a local/outline-aware conditional model against retrieval on a fresh untouched family set. Before claiming handwriting quality, obtain consented real writer pages and human-approved labels/baselines, reserve writers before training, check native Malayalam readability and conjunct behavior, and measure segmentation/alignment errors separately. Keep every generated proposal labelled generated throughout review, tracing and export.
 """
+    report += "\n[Post-training audit: matched evaluation, uncertainty and licensing distinctions](AUDIT.md).\n"
     (REPORTS / "CAMPAIGN.md").write_text(report)
     card = f"""# Model card: Mashi-ML SDF completion v0.1
 
@@ -169,6 +170,7 @@ Stop here because global low-rank averages fragment contours and the independent
 
 Every output must remain `provenance: model-generated`, `confirmed: false` initially, `not_observed_in_photo: true`, and `uncertainty: uncalibrated`. Human acceptance does not turn generated geometry into observed source handwriting. [Integration contract](docs/APP_INTEGRATION.md).
 """
+    card += "\n[Audit and current font-output/checkpoint licensing distinction](reports/AUDIT.md).\n"
     (ROOT / "MODEL_CARD.md").write_text(card)
     readme = f"""# Mashi-ML
 
@@ -206,6 +208,7 @@ The local selected checkpoint is **{checkpoint['bytes']:,} bytes**, SHA256 `{che
 
 The integration demo uses rendered-font fixtures, not a person's handwriting. No app files were modified; the 64x64 pilot requires an explicit scale/baseline adapter for this 96x64 checkpoint. All predictions are uncertain **generated** proposals, never recovered/observed handwriting. See the model card before use.
 """
+    readme += "\n[Post-training audit, uncertainty and publication scope](reports/AUDIT.md).\n"
     (ROOT / "README.md").write_text(readme)
     print(json.dumps({"checkpoint": checkpoint, "selected_test": test["selected"]["macro"], "nearest_test": test["nearest-template"]["macro"], "valid_renders": valid_count}, indent=2))
 

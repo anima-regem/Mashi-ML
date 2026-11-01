@@ -10,4 +10,6 @@ The manifest records an explicit per-source usage decision and exact licence hea
 
 The excluded-source record explains GPL-only sources and unavailable RIT binaries. No noncommercial research implementation was imported. The model is an original NumPy/SciPy implementation, not MX-Font, LF-Font or FUNIT code.
 
+SIL [FAQ 1.25–1.26](https://openfontlicense.org/ofl-faq/) treats AI-generated fonts based on OFL inputs as derivatives retaining OFL, while distinguishing non-font graphical output. This is a documented font-output condition, not an explicit prohibition on training or all checkpoint distribution. Checkpoint classification/packaging remains unresolved here, especially because this file contains 15 recoverable source-font SDF templates in addition to learned arrays. Withholding weights is this project's conservative release decision, not a demonstrated licence ban. See the [audit](../reports/AUDIT.md).
+
 `archive/pilot/` preserves the earlier Mashi research pilot supplied by the application task, with its recorded source manifest/results. Its training inventory, normalization and tiny corpus differ from this campaign. The pilot checkpoint remains local. See that folder's provenance note.

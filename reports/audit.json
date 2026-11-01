@@ -1,0 +1,79 @@
+{
+  "matched_test_episodes": {
+    "first-trained": true,
+    "nearest-template": true,
+    "fixed-template": true,
+    "mean": true,
+    "template-offset": true
+  },
+  "per_family_iou": {
+    "chilanka": {
+      "first-trained": 0.2554785139390131,
+      "selected": 0.30228386635152166,
+      "nearest-template": 0.34097104556734936
+    },
+    "notosansmalayalam": {
+      "first-trained": 0.3535967015756113,
+      "selected": 0.44637669172738087,
+      "nearest-template": 0.459915260529851
+    },
+    "notoserifmalayalam": {
+      "first-trained": 0.3321063315809855,
+      "selected": 0.40990927187819476,
+      "nearest-template": 0.4201297820946657
+    }
+  },
+  "hyperparameter_grid_unchanged_after_v1_test": true,
+  "winner_unchanged_after_scoring_correction": true,
+  "selection_hash_matches_test": true,
+  "template_audit": {
+    "only_training_instances": true,
+    "identical_between_first_and_selected": true,
+    "shape": [
+      15,
+      698,
+      64,
+      96
+    ]
+  },
+  "descriptive_two_lineage_bootstrap": {
+    "seed": 20261101,
+    "resamples": 20000,
+    "warning": "Only two conservative lineages; these percentiles are descriptive sensitivity ranges, not reliable population confidence intervals or writer-generalization uncertainty.",
+    "statistics": {
+      "selected": {
+        "percentiles_2p5_97p5": [
+          0.30228386635152166,
+          0.4281429818027878
+        ],
+        "distinct_outcomes": [
+          0.3022838664,
+          0.3861899433,
+          0.4281429818
+        ]
+      },
+      "delta_first": {
+        "percentiles_2p5_97p5": [
+          0.04680535241250855,
+          0.08529146522448938
+        ],
+        "distinct_outcomes": [
+          0.0468053524,
+          0.072462761,
+          0.0852914652
+        ]
+      },
+      "delta_nearest": {
+        "percentiles_2p5_97p5": [
+          -0.038687179215827705,
+          -0.011879539509470571
+        ],
+        "distinct_outcomes": [
+          -0.0386871792,
+          -0.0208154194,
+          -0.0118795395
+        ]
+      }
+    }
+  }
+}

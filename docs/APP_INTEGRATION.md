@@ -45,3 +45,5 @@ Check project revision before import. Preserve source hashes and provenance thro
 Original engine code is MIT. Font licences are per-source OFL notices (some sources offer dual licensing, with OFL selected). The local checkpoint has **no asserted unrestricted redistribution licence**; it is not uploaded in this campaign. Training on OFL fonts does not by itself settle licensing of ML weights or generated font geometry. Review source lineage/reserved names before packaging derivative fonts. Keep generated family names distinct from source font families.
 
 The inventory in `manifests/repertoire.json` contains candidates; the actual trained sequence list is stored in the checkpoint, selected using training coverage only. Unknown sequences require a new model/repertoire. Digital-font evaluation cannot establish the quality of actual handwriting completion. This engine is not an observed-handwriting reconstruction service.
+
+Generated-font assembly must apply the OFL output conditions described in the [licence audit](../reports/AUDIT.md). The unresolved checkpoint release question is separate from those documented font-output conditions.

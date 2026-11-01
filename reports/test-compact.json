@@ -1,0 +1,302 @@
+{
+  "protocol": "v2-known-appearance-aliases-excluded",
+  "validation": {
+    "fixed-template": {
+      "regular_macro_iou": 0.20721635932872565,
+      "all_weights": {
+        "iou": 0.19432208315677313,
+        "sdf_mae": 0.07834323626701478
+      }
+    },
+    "mean": {
+      "regular_macro_iou": 0.21045655938307772,
+      "all_weights": {
+        "iou": 0.1924755582316597,
+        "sdf_mae": 0.06664448240656912
+      }
+    },
+    "nearest-template": {
+      "regular_macro_iou": 0.3954012404620755,
+      "all_weights": {
+        "iou": 0.4185968498912465,
+        "sdf_mae": 0.050614274463351865
+      }
+    },
+    "template-offset": {
+      "regular_macro_iou": 0.3954012404620755,
+      "all_weights": {
+        "iou": 0.4185968498912465,
+        "sdf_mae": 0.05156801050447261
+      }
+    },
+    "selected": {
+      "regular_macro_iou": 0.4055943777819015,
+      "all_weights": {
+        "iou": 0.4147405962858015,
+        "sdf_mae": 0.06738591166558089
+      }
+    }
+  },
+  "best_clean": {
+    "id": "clean-r12-l0.0001-b1",
+    "training": "clean",
+    "config": {
+      "method": "pca",
+      "rank": 12,
+      "ridge": 0.0001,
+      "band": true,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.4012108763316216,
+        "sdf_mae": 0.04702461710958569
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.43515416049203814,
+          "sdf_mae": 0.04907374953230222
+        },
+        "manjari": {
+          "iou": 0.5137273661637508,
+          "sdf_mae": 0.029542819700307317
+        },
+        "uroob": {
+          "iou": 0.2547511023390759,
+          "sdf_mae": 0.06245728209614754
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.3906145463645985,
+        "10": 0.4026814214251125,
+        "20": 0.41033666120515383
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  "first_setting_validation": {
+    "id": "clean-r2-l0.001-b0",
+    "training": "clean",
+    "config": {
+      "method": "pca",
+      "rank": 2,
+      "ridge": 0.001,
+      "band": false,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.30114351835016945,
+        "sdf_mae": 0.04954105863968531
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.3631432410151103,
+          "sdf_mae": 0.0537248303492864
+        },
+        "manjari": {
+          "iou": 0.4054041918046802,
+          "sdf_mae": 0.03461737268500858
+        },
+        "uroob": {
+          "iou": 0.13488312223071786,
+          "sdf_mae": 0.06028097288476096
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.29666151597117446,
+        "10": 0.3025166894760137,
+        "20": 0.3042523496033201
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  "test": {
+    "fixed-template": {
+      "macro": {
+        "iou": 0.2183472686241916,
+        "sdf_mae": 0.0640532963529781
+      },
+      "by_family": {
+        "chilanka": {
+          "iou": 0.15833188479509927,
+          "sdf_mae": 0.07688708768950568
+        },
+        "notosansmalayalam": {
+          "iou": 0.25189716190644884,
+          "sdf_mae": 0.06077063939085713
+        },
+        "notoserifmalayalam": {
+          "iou": 0.24481275917102666,
+          "sdf_mae": 0.0545021619785715
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.2189278179546512,
+        "10": 0.21850901597840908,
+        "20": 0.21760497193951453
+      },
+      "episodes": 63,
+      "target_predictions": 42921
+    },
+    "mean": {
+      "macro": {
+        "iou": 0.17534257954465826,
+        "sdf_mae": 0.0761722426539586
+      },
+      "by_family": {
+        "chilanka": {
+          "iou": 0.21138730646357037,
+          "sdf_mae": 0.05258946534660128
+        },
+        "notosansmalayalam": {
+          "iou": 0.14994794421778615,
+          "sdf_mae": 0.09297944577755751
+        },
+        "notoserifmalayalam": {
+          "iou": 0.16469248795261823,
+          "sdf_mae": 0.08294781683771699
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.1762155169806611,
+        "10": 0.17555971475483656,
+        "20": 0.17425250689847707
+      },
+      "episodes": 63,
+      "target_predictions": 42921
+    },
+    "nearest-template": {
+      "macro": {
+        "iou": 0.40700536273062204,
+        "sdf_mae": 0.044177022107221464
+      },
+      "by_family": {
+        "chilanka": {
+          "iou": 0.34097104556734936,
+          "sdf_mae": 0.04107267864876323
+        },
+        "notosansmalayalam": {
+          "iou": 0.459915260529851,
+          "sdf_mae": 0.04563118393222491
+        },
+        "notoserifmalayalam": {
+          "iou": 0.4201297820946657,
+          "sdf_mae": 0.045827203740676246
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.4169338074698769,
+        "10": 0.4068682021584014,
+        "20": 0.39721407856358776
+      },
+      "episodes": 63,
+      "target_predictions": 42921
+    },
+    "template-offset": {
+      "macro": {
+        "iou": 0.40700536273062204,
+        "sdf_mae": 0.044063286349665685
+      },
+      "by_family": {
+        "chilanka": {
+          "iou": 0.34097104556734936,
+          "sdf_mae": 0.041072679013033346
+        },
+        "notosansmalayalam": {
+          "iou": 0.459915260529851,
+          "sdf_mae": 0.04563118430724547
+        },
+        "notoserifmalayalam": {
+          "iou": 0.4201297820946657,
+          "sdf_mae": 0.04548599572871824
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.4169338074698769,
+        "10": 0.4068682021584014,
+        "20": 0.39721407856358776
+      },
+      "episodes": 63,
+      "target_predictions": 42921
+    },
+    "selected": {
+      "macro": {
+        "iou": 0.3861899433190324,
+        "sdf_mae": 0.05866587815093405
+      },
+      "by_family": {
+        "chilanka": {
+          "iou": 0.30228386635152166,
+          "sdf_mae": 0.06761464766330189
+        },
+        "notosansmalayalam": {
+          "iou": 0.44637669172738087,
+          "sdf_mae": 0.059046126074261136
+        },
+        "notoserifmalayalam": {
+          "iou": 0.40990927187819476,
+          "sdf_mae": 0.049336860715239135
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.38973120817061585,
+        "10": 0.3844625051167294,
+        "20": 0.3843761166697522
+      },
+      "episodes": 63,
+      "target_predictions": 42921
+    },
+    "first-trained": {
+      "macro": {
+        "iou": 0.3137271823652033,
+        "sdf_mae": 0.04707969453783683
+      },
+      "by_family": {
+        "chilanka": {
+          "iou": 0.2554785139390131,
+          "sdf_mae": 0.04193927844365438
+        },
+        "notosansmalayalam": {
+          "iou": 0.3535967015756113,
+          "sdf_mae": 0.05219302478211897
+        },
+        "notoserifmalayalam": {
+          "iou": 0.3321063315809855,
+          "sdf_mae": 0.047106780387737135
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.31385496306010613,
+        "10": 0.3133946541532675,
+        "20": 0.31393192988223606
+      },
+      "episodes": 63,
+      "target_predictions": 42921
+    }
+  },
+  "test_synthetic_observation_stress": {
+    "macro": {
+      "iou": 0.3623249985461637,
+      "sdf_mae": 0.06596546426967338
+    },
+    "by_family": {
+      "chilanka": {
+        "iou": 0.2849486202620301,
+        "sdf_mae": 0.07310734937588374
+      },
+      "notosansmalayalam": {
+        "iou": 0.42284625819583277,
+        "sdf_mae": 0.06696912066804038
+      },
+      "notoserifmalayalam": {
+        "iou": 0.37918011718062816,
+        "sdf_mae": 0.05781992276509603
+      }
+    },
+    "episodes": 21,
+    "target_predictions": 14349
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "sha256": "930441a6a36d81210be55a831cfe8284bfffcd1afc9fc266428897104dab5085",
+  "config": {
+    "method": "pca",
+    "rank": 2,
+    "ridge": 0.001,
+    "band": false,
+    "blend": 1.0
+  },
+  "metadata": {
+    "architecture": "family-weighted joint-sequence SDF PCA with regularized style inference",
+    "training_families": [
+      "anekmalayalam",
+      "anjalioldlipi",
+      "dyuthi",
+      "gayathri",
+      "karumbi",
+      "malini",
+      "meera",
+      "rachana"
+    ],
+    "training_instances": 15,
+    "fitted_instances_including_synthetic": 15,
+    "max_rank": 12,
+    "augmentation": false,
+    "explained_variance_ratio": [
+      0.4735117554664612,
+      0.23640887439250946,
+      0.09285467863082886,
+      0.0498398095369339,
+      0.047280438244342804,
+      0.03152494132518768,
+      0.022296283394098282,
+      0.017250115051865578,
+      0.010399911552667618,
+      0.008246800862252712,
+      0.003577216062694788,
+      0.003243265440687537
+    ],
+    "fit_seconds": 0.44914362498093396
+  }
+}

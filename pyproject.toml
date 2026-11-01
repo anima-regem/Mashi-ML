@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mashi-ml"
+version = "0.1.0"
+description = "Local Malayalam missing-sequence appearance research for Mashi"
+requires-python = ">=3.11,<3.12"
+license = {text = "MIT (original code only; see separate font and model terms)"}
+dependencies = ["numpy==2.3.5", "scipy==1.16.3", "Pillow==12.1.0", "fonttools==4.61.1", "uharfbuzz==0.53.3", "freetype-py==2.5.1", "scikit-image==0.26.0", "psutil==7.2.1"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

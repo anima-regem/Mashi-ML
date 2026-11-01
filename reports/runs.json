@@ -1,0 +1,1826 @@
+[
+  {
+    "id": "clean-r2-l0.0001-b0",
+    "training": "clean",
+    "config": {
+      "method": "pca",
+      "rank": 2,
+      "ridge": 0.0001,
+      "band": false,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.3335931996694826,
+        "sdf_mae": 0.04782731637910561
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.43472705323677663,
+          "sdf_mae": 0.048636726207203336
+        },
+        "manjari": {
+          "iou": 0.4322933423360791,
+          "sdf_mae": 0.03423264001806577
+        },
+        "uroob": {
+          "iou": 0.13375920343559217,
+          "sdf_mae": 0.060612582912047706
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.3286053938250972,
+        "10": 0.3347534081667374,
+        "20": 0.33742079701661337
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "clean-r2-l0.0001-b1",
+    "training": "clean",
+    "config": {
+      "method": "pca",
+      "rank": 2,
+      "ridge": 0.0001,
+      "band": true,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.3554775534439732,
+        "sdf_mae": 0.048247993544295986
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.4643610698811654,
+          "sdf_mae": 0.04763973090383741
+        },
+        "manjari": {
+          "iou": 0.4335062983279702,
+          "sdf_mae": 0.034960024886661105
+        },
+        "uroob": {
+          "iou": 0.1685652921227841,
+          "sdf_mae": 0.06214422484238943
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.350184148977328,
+        "10": 0.3572623279738237,
+        "20": 0.3589861833807679
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "clean-r2-l0.001-b0",
+    "training": "clean",
+    "config": {
+      "method": "pca",
+      "rank": 2,
+      "ridge": 0.001,
+      "band": false,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.30114351835016945,
+        "sdf_mae": 0.04954105863968531
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.3631432410151103,
+          "sdf_mae": 0.0537248303492864
+        },
+        "manjari": {
+          "iou": 0.4054041918046802,
+          "sdf_mae": 0.03461737268500858
+        },
+        "uroob": {
+          "iou": 0.13488312223071786,
+          "sdf_mae": 0.06028097288476096
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.29666151597117446,
+        "10": 0.3025166894760137,
+        "20": 0.3042523496033201
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "clean-r2-l0.001-b1",
+    "training": "clean",
+    "config": {
+      "method": "pca",
+      "rank": 2,
+      "ridge": 0.001,
+      "band": true,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.3464539322848263,
+        "sdf_mae": 0.04852677288430709
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.44218350977019344,
+          "sdf_mae": 0.04841389631231626
+        },
+        "manjari": {
+          "iou": 0.4293209382711725,
+          "sdf_mae": 0.03491311313377486
+        },
+        "uroob": {
+          "iou": 0.16785734881311293,
+          "sdf_mae": 0.06225330920683013
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.34058871047389166,
+        "10": 0.34900931950913106,
+        "20": 0.3497637668714561
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "clean-r2-l0.01-b0",
+    "training": "clean",
+    "config": {
+      "method": "pca",
+      "rank": 2,
+      "ridge": 0.01,
+      "band": false,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.23597325631674548,
+        "sdf_mae": 0.05591970226830906
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.23963967960487093,
+          "sdf_mae": 0.06948716690142949
+        },
+        "manjari": {
+          "iou": 0.3145874476364748,
+          "sdf_mae": 0.036514242076211505
+        },
+        "uroob": {
+          "iou": 0.15369264170889074,
+          "sdf_mae": 0.06175769782728619
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.2349416496686693,
+        "10": 0.23633065923581845,
+        "20": 0.23664746004574866
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "clean-r2-l0.01-b1",
+    "training": "clean",
+    "config": {
+      "method": "pca",
+      "rank": 2,
+      "ridge": 0.01,
+      "band": true,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.2986824990882842,
+        "sdf_mae": 0.051661964091989726
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.3362639747625888,
+          "sdf_mae": 0.05700543647011121
+        },
+        "manjari": {
+          "iou": 0.3912404463137462,
+          "sdf_mae": 0.034969514028893575
+        },
+        "uroob": {
+          "iou": 0.1685430761885175,
+          "sdf_mae": 0.0630109417769644
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.29408710631803453,
+        "10": 0.3004557636416393,
+        "20": 0.30150462730517874
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "clean-r4-l0.0001-b0",
+    "training": "clean",
+    "config": {
+      "method": "pca",
+      "rank": 4,
+      "ridge": 0.0001,
+      "band": false,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.35868023401828664,
+        "sdf_mae": 0.0463116355240345
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.4075520720761744,
+          "sdf_mae": 0.04979242839747005
+        },
+        "manjari": {
+          "iou": 0.4810480372270604,
+          "sdf_mae": 0.030084739956590865
+        },
+        "uroob": {
+          "iou": 0.18744059275162508,
+          "sdf_mae": 0.05905773821804258
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.34815646390482397,
+        "10": 0.3607466597259619,
+        "20": 0.367137578424074
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "clean-r4-l0.0001-b1",
+    "training": "clean",
+    "config": {
+      "method": "pca",
+      "rank": 4,
+      "ridge": 0.0001,
+      "band": true,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.3835500615246296,
+        "sdf_mae": 0.046997914780621174
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.43005678999042696,
+          "sdf_mae": 0.04890216721428765
+        },
+        "manjari": {
+          "iou": 0.5010518275990148,
+          "sdf_mae": 0.029562427558832698
+        },
+        "uroob": {
+          "iou": 0.21954156698444696,
+          "sdf_mae": 0.06252914956874317
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.3738451135339656,
+        "10": 0.38539803422064284,
+        "20": 0.39140703681928013
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "clean-r4-l0.001-b0",
+    "training": "clean",
+    "config": {
+      "method": "pca",
+      "rank": 4,
+      "ridge": 0.001,
+      "band": false,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.31099696911811964,
+        "sdf_mae": 0.04868742713221797
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.3627792273789126,
+          "sdf_mae": 0.05404847446415159
+        },
+        "manjari": {
+          "iou": 0.4167517952006123,
+          "sdf_mae": 0.0327500527103742
+        },
+        "uroob": {
+          "iou": 0.15345988477483402,
+          "sdf_mae": 0.05926375422212812
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.3042326157312603,
+        "10": 0.3127636836161171,
+        "20": 0.3159946080069815
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "clean-r4-l0.001-b1",
+    "training": "clean",
+    "config": {
+      "method": "pca",
+      "rank": 4,
+      "ridge": 0.001,
+      "band": true,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.3681960928361971,
+        "sdf_mae": 0.04737610652766846
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.4178907749209828,
+          "sdf_mae": 0.04934489478667577
+        },
+        "manjari": {
+          "iou": 0.480406556532953,
+          "sdf_mae": 0.030617824238207605
+        },
+        "uroob": {
+          "iou": 0.20629094705465542,
+          "sdf_mae": 0.062165600558122
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.358765454578772,
+        "10": 0.36984053909659065,
+        "20": 0.3759822848332286
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "clean-r4-l0.01-b0",
+    "training": "clean",
+    "config": {
+      "method": "pca",
+      "rank": 4,
+      "ridge": 0.01,
+      "band": false,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.23639628601032914,
+        "sdf_mae": 0.05579770508187789
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.2386868882142562,
+          "sdf_mae": 0.06947245283259286
+        },
+        "manjari": {
+          "iou": 0.31437864136890054,
+          "sdf_mae": 0.03626081140504943
+        },
+        "uroob": {
+          "iou": 0.1561233284478306,
+          "sdf_mae": 0.061659851007991366
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.23529116004855988,
+        "10": 0.236832136946283,
+        "20": 0.23706556103614454
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "clean-r4-l0.01-b1",
+    "training": "clean",
+    "config": {
+      "method": "pca",
+      "rank": 4,
+      "ridge": 0.01,
+      "band": true,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.3044750325979532,
+        "sdf_mae": 0.051195431638647
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.3351626668825124,
+          "sdf_mae": 0.05723080370161268
+        },
+        "manjari": {
+          "iou": 0.3996681780792062,
+          "sdf_mae": 0.03368963632318708
+        },
+        "uroob": {
+          "iou": 0.17859425283214117,
+          "sdf_mae": 0.06266585489114125
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.29883970812354194,
+        "10": 0.30624414894497637,
+        "20": 0.30834124072534136
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "clean-r8-l0.0001-b0",
+    "training": "clean",
+    "config": {
+      "method": "pca",
+      "rank": 8,
+      "ridge": 0.0001,
+      "band": false,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.3644398416032755,
+        "sdf_mae": 0.04632581735926646
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.4067543817928705,
+          "sdf_mae": 0.049852076917886734
+        },
+        "manjari": {
+          "iou": 0.493215517052158,
+          "sdf_mae": 0.03000157678292857
+        },
+        "uroob": {
+          "iou": 0.1933496259647982,
+          "sdf_mae": 0.05912379837698407
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.3521663654558808,
+        "10": 0.3677250379803392,
+        "20": 0.37342812137360665
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "clean-r8-l0.0001-b1",
+    "training": "clean",
+    "config": {
+      "method": "pca",
+      "rank": 8,
+      "ridge": 0.0001,
+      "band": true,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.397554207735848,
+        "sdf_mae": 0.04769790400233534
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.42697591556004844,
+          "sdf_mae": 0.049222149368789464
+        },
+        "manjari": {
+          "iou": 0.5137488627430099,
+          "sdf_mae": 0.02962691357566251
+        },
+        "uroob": {
+          "iou": 0.2519378449044856,
+          "sdf_mae": 0.06424464906255405
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.3858846005044767,
+        "10": 0.39951732394604567,
+        "20": 0.4072606987570217
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "clean-r8-l0.001-b0",
+    "training": "clean",
+    "config": {
+      "method": "pca",
+      "rank": 8,
+      "ridge": 0.001,
+      "band": false,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.3137910140344517,
+        "sdf_mae": 0.04872049694811856
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.36258641433430694,
+          "sdf_mae": 0.05413740500807762
+        },
+        "manjari": {
+          "iou": 0.42192050101346545,
+          "sdf_mae": 0.03269443164269129
+        },
+        "uroob": {
+          "iou": 0.1568661267555826,
+          "sdf_mae": 0.059329654193586774
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.30601984868372245,
+        "10": 0.3161014209254845,
+        "20": 0.3192517724941479
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "clean-r8-l0.001-b1",
+    "training": "clean",
+    "config": {
+      "method": "pca",
+      "rank": 8,
+      "ridge": 0.001,
+      "band": true,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.3800137299341649,
+        "sdf_mae": 0.04773925244808197
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.4151115187997756,
+          "sdf_mae": 0.04959242045879364
+        },
+        "manjari": {
+          "iou": 0.49421933445352045,
+          "sdf_mae": 0.03051934763789177
+        },
+        "uroob": {
+          "iou": 0.23071033654919862,
+          "sdf_mae": 0.0631059892475605
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.36967378650124677,
+        "10": 0.38275251491037793,
+        "20": 0.3876148883908699
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "clean-r8-l0.01-b0",
+    "training": "clean",
+    "config": {
+      "method": "pca",
+      "rank": 8,
+      "ridge": 0.01,
+      "band": false,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.2365165428118452,
+        "sdf_mae": 0.0558012205141562
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.2384950737581916,
+          "sdf_mae": 0.0694841527276569
+        },
+        "manjari": {
+          "iou": 0.3145968278803807,
+          "sdf_mae": 0.036252612041102514
+        },
+        "uroob": {
+          "iou": 0.1564577267969633,
+          "sdf_mae": 0.06166689677370919
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.23535375722418847,
+        "10": 0.23696419517116576,
+        "20": 0.23723167604018144
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "clean-r8-l0.01-b1",
+    "training": "clean",
+    "config": {
+      "method": "pca",
+      "rank": 8,
+      "ridge": 0.01,
+      "band": true,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.3075418370645178,
+        "sdf_mae": 0.051276984038176356
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.3346375703380803,
+          "sdf_mae": 0.05734178548057874
+        },
+        "manjari": {
+          "iou": 0.4022948772366983,
+          "sdf_mae": 0.03365902188751432
+        },
+        "uroob": {
+          "iou": 0.1856930636187749,
+          "sdf_mae": 0.06283014474643601
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.30154317514807777,
+        "10": 0.3095985132703029,
+        "20": 0.3114838227751728
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "clean-r12-l0.0001-b0",
+    "training": "clean",
+    "config": {
+      "method": "pca",
+      "rank": 12,
+      "ridge": 0.0001,
+      "band": false,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.3675978531448359,
+        "sdf_mae": 0.04586732877349412
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.4080896958007345,
+          "sdf_mae": 0.0497550695306725
+        },
+        "manjari": {
+          "iou": 0.4935500299705437,
+          "sdf_mae": 0.02995279286470678
+        },
+        "uroob": {
+          "iou": 0.20115383366322948,
+          "sdf_mae": 0.05789412392510308
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.35605585022545666,
+        "10": 0.3708388864208765,
+        "20": 0.3758988227881746
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "clean-r12-l0.0001-b1",
+    "training": "clean",
+    "config": {
+      "method": "pca",
+      "rank": 12,
+      "ridge": 0.0001,
+      "band": true,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.4012108763316216,
+        "sdf_mae": 0.04702461710958569
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.43515416049203814,
+          "sdf_mae": 0.04907374953230222
+        },
+        "manjari": {
+          "iou": 0.5137273661637508,
+          "sdf_mae": 0.029542819700307317
+        },
+        "uroob": {
+          "iou": 0.2547511023390759,
+          "sdf_mae": 0.06245728209614754
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.3906145463645985,
+        "10": 0.4026814214251125,
+        "20": 0.41033666120515383
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "clean-r12-l0.001-b0",
+    "training": "clean",
+    "config": {
+      "method": "pca",
+      "rank": 12,
+      "ridge": 0.001,
+      "band": false,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.31416822976989983,
+        "sdf_mae": 0.04865628398127026
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.36281116594870005,
+          "sdf_mae": 0.05414701625704765
+        },
+        "manjari": {
+          "iou": 0.42186895065561275,
+          "sdf_mae": 0.03269423378838433
+        },
+        "uroob": {
+          "iou": 0.15782457270538663,
+          "sdf_mae": 0.0591276018983788
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.30646601669931206,
+        "10": 0.31651727206163033,
+        "20": 0.31952140054875705
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "clean-r12-l0.001-b1",
+    "training": "clean",
+    "config": {
+      "method": "pca",
+      "rank": 12,
+      "ridge": 0.001,
+      "band": true,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.3805624943937471,
+        "sdf_mae": 0.04751239896372512
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.41484537596616516,
+          "sdf_mae": 0.04956791467136807
+        },
+        "manjari": {
+          "iou": 0.49413109891159757,
+          "sdf_mae": 0.030513349920511246
+        },
+        "uroob": {
+          "iou": 0.2327110083034787,
+          "sdf_mae": 0.06245593229929606
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.3706530320290457,
+        "10": 0.382844754003186,
+        "20": 0.38818969714900975
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "clean-r12-l0.01-b0",
+    "training": "clean",
+    "config": {
+      "method": "pca",
+      "rank": 12,
+      "ridge": 0.01,
+      "band": false,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.23657742689256098,
+        "sdf_mae": 0.05579671443060593
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.23846094551402952,
+          "sdf_mae": 0.06948806014325884
+        },
+        "manjari": {
+          "iou": 0.31457771252827915,
+          "sdf_mae": 0.03625308887826072
+        },
+        "uroob": {
+          "iou": 0.1566936226353742,
+          "sdf_mae": 0.06164899427029821
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.23543674386074784,
+        "10": 0.23702268864105536,
+        "20": 0.23727284817587968
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "clean-r12-l0.01-b1",
+    "training": "clean",
+    "config": {
+      "method": "pca",
+      "rank": 12,
+      "ridge": 0.01,
+      "band": true,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.3077342330926552,
+        "sdf_mae": 0.05125609688736774
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.3343948773026592,
+          "sdf_mae": 0.05735750454995367
+        },
+        "manjari": {
+          "iou": 0.4021956441958794,
+          "sdf_mae": 0.033665549837880664
+        },
+        "uroob": {
+          "iou": 0.18661217777942693,
+          "sdf_mae": 0.0627452362742689
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.3018738139499385,
+        "10": 0.30967663024590525,
+        "20": 0.3116522550821218
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "augmented-r2-l0.0001-b0",
+    "training": "augmented",
+    "config": {
+      "method": "pca",
+      "rank": 2,
+      "ridge": 0.0001,
+      "band": false,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.3368410990837027,
+        "sdf_mae": 0.057975218527846865
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.43699798763971903,
+          "sdf_mae": 0.05696065185798539
+        },
+        "manjari": {
+          "iou": 0.43401530441023495,
+          "sdf_mae": 0.04344803964098295
+        },
+        "uroob": {
+          "iou": 0.1395100052011539,
+          "sdf_mae": 0.07351696408457226
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.3321450513442327,
+        "10": 0.33814703871457946,
+        "20": 0.3402312071922957
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "augmented-r2-l0.0001-b1",
+    "training": "augmented",
+    "config": {
+      "method": "pca",
+      "rank": 2,
+      "ridge": 0.0001,
+      "band": true,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.3559763346838854,
+        "sdf_mae": 0.0578575164631561
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.4718952216988236,
+          "sdf_mae": 0.05596895929839876
+        },
+        "manjari": {
+          "iou": 0.43081165371411745,
+          "sdf_mae": 0.04422687159644233
+        },
+        "uroob": {
+          "iou": 0.16522212863871524,
+          "sdf_mae": 0.07337671849462721
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.35065186266422543,
+        "10": 0.35797544504010764,
+        "20": 0.3593016963473232
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "augmented-r2-l0.001-b0",
+    "training": "augmented",
+    "config": {
+      "method": "pca",
+      "rank": 2,
+      "ridge": 0.001,
+      "band": false,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.30055460777672055,
+        "sdf_mae": 0.05980938948966839
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.3590925377176786,
+          "sdf_mae": 0.06224611774086952
+        },
+        "manjari": {
+          "iou": 0.4036789439265873,
+          "sdf_mae": 0.04420808661315176
+        },
+        "uroob": {
+          "iou": 0.13889234168589584,
+          "sdf_mae": 0.07297396411498387
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.2962133299073421,
+        "10": 0.3018175636969193,
+        "20": 0.3036329297259002
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "augmented-r2-l0.001-b1",
+    "training": "augmented",
+    "config": {
+      "method": "pca",
+      "rank": 2,
+      "ridge": 0.001,
+      "band": true,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.3440856848324949,
+        "sdf_mae": 0.0581614282672052
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.44188554372817784,
+          "sdf_mae": 0.05672954022884369
+        },
+        "manjari": {
+          "iou": 0.4260717556143161,
+          "sdf_mae": 0.044236496504810124
+        },
+        "uroob": {
+          "iou": 0.16429975515499062,
+          "sdf_mae": 0.0735182480679618
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.3383370326393913,
+        "10": 0.3463109463274266,
+        "20": 0.3476090755306665
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "augmented-r2-l0.01-b0",
+    "training": "augmented",
+    "config": {
+      "method": "pca",
+      "rank": 2,
+      "ridge": 0.01,
+      "band": false,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.2302214247272183,
+        "sdf_mae": 0.06652618061613154
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.23307306081778117,
+          "sdf_mae": 0.07888251377476586
+        },
+        "manjari": {
+          "iou": 0.30505209140723394,
+          "sdf_mae": 0.04709967805279626
+        },
+        "uroob": {
+          "iou": 0.15253912195663982,
+          "sdf_mae": 0.07359635002083248
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.2292696034512337,
+        "10": 0.2305910698935748,
+        "20": 0.2308036008368464
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "augmented-r2-l0.01-b1",
+    "training": "augmented",
+    "config": {
+      "method": "pca",
+      "rank": 2,
+      "ridge": 0.01,
+      "band": true,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.2927411829349315,
+        "sdf_mae": 0.061546193504775006
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.3293208444275376,
+          "sdf_mae": 0.0656492370698187
+        },
+        "manjari": {
+          "iou": 0.3844427218916779,
+          "sdf_mae": 0.04475571711858114
+        },
+        "uroob": {
+          "iou": 0.16445998248557916,
+          "sdf_mae": 0.07423362632592519
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.288296943239068,
+        "10": 0.29441669061483516,
+        "20": 0.2955099149508915
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "augmented-r4-l0.0001-b0",
+    "training": "augmented",
+    "config": {
+      "method": "pca",
+      "rank": 4,
+      "ridge": 0.0001,
+      "band": false,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.3550810196366436,
+        "sdf_mae": 0.051277578704886966
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.41337270831288364,
+          "sdf_mae": 0.05101141913069619
+        },
+        "manjari": {
+          "iou": 0.46685493481426515,
+          "sdf_mae": 0.03542739980750614
+        },
+        "uroob": {
+          "iou": 0.18501541578278224,
+          "sdf_mae": 0.06739391717645857
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.3468768010314398,
+        "10": 0.356688836761502,
+        "20": 0.36167742111698925
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "augmented-r4-l0.0001-b1",
+    "training": "augmented",
+    "config": {
+      "method": "pca",
+      "rank": 4,
+      "ridge": 0.0001,
+      "band": true,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.3886062647381286,
+        "sdf_mae": 0.05811937180934129
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.44289104132293117,
+          "sdf_mae": 0.05220200949245029
+        },
+        "manjari": {
+          "iou": 0.4904321130145158,
+          "sdf_mae": 0.03991533815860748
+        },
+        "uroob": {
+          "iou": 0.23249563987693897,
+          "sdf_mae": 0.0822407677769661
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.3803205502152806,
+        "10": 0.38922644212550134,
+        "20": 0.39627180187360406
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "augmented-r4-l0.001-b0",
+    "training": "augmented",
+    "config": {
+      "method": "pca",
+      "rank": 4,
+      "ridge": 0.001,
+      "band": false,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.30666244322537767,
+        "sdf_mae": 0.056666781229001505
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.35693620563263895,
+          "sdf_mae": 0.05892279868324598
+        },
+        "manjari": {
+          "iou": 0.4083750333304513,
+          "sdf_mae": 0.04009366739127371
+        },
+        "uroob": {
+          "iou": 0.15467609071304278,
+          "sdf_mae": 0.07098387761248483
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.3004494105584035,
+        "10": 0.30828780574431175,
+        "20": 0.31125011337341774
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "augmented-r4-l0.001-b1",
+    "training": "augmented",
+    "config": {
+      "method": "pca",
+      "rank": 4,
+      "ridge": 0.001,
+      "band": true,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.3701349253963499,
+        "sdf_mae": 0.057842255052593015
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.4230754171953106,
+          "sdf_mae": 0.05359479495220714
+        },
+        "manjari": {
+          "iou": 0.4697516859301358,
+          "sdf_mae": 0.04012774179379145
+        },
+        "uroob": {
+          "iou": 0.21757767306360323,
+          "sdf_mae": 0.07980422841178046
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.362480024532659,
+        "10": 0.3708548931140084,
+        "20": 0.377069858542382
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "augmented-r4-l0.01-b0",
+    "training": "augmented",
+    "config": {
+      "method": "pca",
+      "rank": 4,
+      "ridge": 0.01,
+      "band": false,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.22955204467631782,
+        "sdf_mae": 0.06600486073229048
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.23099653562267924,
+          "sdf_mae": 0.07818081892198986
+        },
+        "manjari": {
+          "iou": 0.30313328904892983,
+          "sdf_mae": 0.04643252160814074
+        },
+        "uroob": {
+          "iou": 0.15452630935734435,
+          "sdf_mae": 0.07340124166674084
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.22855783327545895,
+        "10": 0.23000452707755195,
+        "20": 0.23009377367594253
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "augmented-r4-l0.01-b1",
+    "training": "augmented",
+    "config": {
+      "method": "pca",
+      "rank": 4,
+      "ridge": 0.01,
+      "band": true,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.2994443500185677,
+        "sdf_mae": 0.061052560392353274
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.3268817269813278,
+          "sdf_mae": 0.06412999331951141
+        },
+        "manjari": {
+          "iou": 0.39047834415639304,
+          "sdf_mae": 0.04324827136264907
+        },
+        "uroob": {
+          "iou": 0.1809729789179822,
+          "sdf_mae": 0.07577941649489933
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.2943510630207406,
+        "10": 0.3010411518354896,
+        "20": 0.3029408351994728
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "augmented-r8-l0.0001-b0",
+    "training": "augmented",
+    "config": {
+      "method": "pca",
+      "rank": 8,
+      "ridge": 0.0001,
+      "band": false,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.3612892321348557,
+        "sdf_mae": 0.05036824789864045
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.40974900767097566,
+          "sdf_mae": 0.05142980772587988
+        },
+        "manjari": {
+          "iou": 0.4863271687168516,
+          "sdf_mae": 0.03400835974348916
+        },
+        "uroob": {
+          "iou": 0.18779152001673963,
+          "sdf_mae": 0.06566657622655232
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.35023029101787834,
+        "10": 0.3634505764293075,
+        "20": 0.3701868289573811
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "augmented-r8-l0.0001-b1",
+    "training": "augmented",
+    "config": {
+      "method": "pca",
+      "rank": 8,
+      "ridge": 0.0001,
+      "band": true,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.4055943777819015,
+        "sdf_mae": 0.06284859955862716
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.4349480641787767,
+          "sdf_mae": 0.05615422957473331
+        },
+        "manjari": {
+          "iou": 0.5184908219149943,
+          "sdf_mae": 0.04252644835246934
+        },
+        "uroob": {
+          "iou": 0.2633442472519334,
+          "sdf_mae": 0.08986512074867885
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.39511698755430835,
+        "10": 0.4069335472111159,
+        "20": 0.41473259858028005
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "augmented-r8-l0.001-b0",
+    "training": "augmented",
+    "config": {
+      "method": "pca",
+      "rank": 8,
+      "ridge": 0.001,
+      "band": false,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.307980395184925,
+        "sdf_mae": 0.05631441705756718
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.3577486896346736,
+          "sdf_mae": 0.05925426632165909
+        },
+        "manjari": {
+          "iou": 0.41125060298392796,
+          "sdf_mae": 0.0396337037285169
+        },
+        "uroob": {
+          "iou": 0.1549418929361735,
+          "sdf_mae": 0.07005528112252553
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.30005795649610495,
+        "10": 0.3101831923547351,
+        "20": 0.31370003670393504
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "augmented-r8-l0.001-b1",
+    "training": "augmented",
+    "config": {
+      "method": "pca",
+      "rank": 8,
+      "ridge": 0.001,
+      "band": true,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.3843009516507317,
+        "sdf_mae": 0.060765423156597
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.41766501682607254,
+          "sdf_mae": 0.05650344325436486
+        },
+        "manjari": {
+          "iou": 0.4937524492451353,
+          "sdf_mae": 0.041788649227884084
+        },
+        "uroob": {
+          "iou": 0.24148538888098736,
+          "sdf_mae": 0.08400417698754205
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.3740380830760868,
+        "10": 0.3866072473931399,
+        "20": 0.3922575244829683
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "augmented-r8-l0.01-b0",
+    "training": "augmented",
+    "config": {
+      "method": "pca",
+      "rank": 8,
+      "ridge": 0.01,
+      "band": false,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.2295650120984031,
+        "sdf_mae": 0.06595171574089263
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.2311173279953834,
+          "sdf_mae": 0.07829808774921629
+        },
+        "manjari": {
+          "iou": 0.303066938889067,
+          "sdf_mae": 0.046349742346339755
+        },
+        "uroob": {
+          "iou": 0.1545107694107589,
+          "sdf_mae": 0.07320731712712182
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.22849922282963234,
+        "10": 0.2300364960617651,
+        "20": 0.23015931740381176
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "augmented-r8-l0.01-b1",
+    "training": "augmented",
+    "config": {
+      "method": "pca",
+      "rank": 8,
+      "ridge": 0.01,
+      "band": true,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.30327674752999306,
+        "sdf_mae": 0.0618705760549616
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.3270753024508605,
+          "sdf_mae": 0.06519741730557548
+        },
+        "manjari": {
+          "iou": 0.39385036372413396,
+          "sdf_mae": 0.043647228843635984
+        },
+        "uroob": {
+          "iou": 0.18890457641498476,
+          "sdf_mae": 0.07676708201567332
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.2974081243042259,
+        "10": 0.3053059369927089,
+        "20": 0.30711618129304435
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "augmented-r12-l0.0001-b0",
+    "training": "augmented",
+    "config": {
+      "method": "pca",
+      "rank": 12,
+      "ridge": 0.0001,
+      "band": false,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.3671640502061095,
+        "sdf_mae": 0.0487630056148326
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.41194551196498036,
+          "sdf_mae": 0.050666364944643445
+        },
+        "manjari": {
+          "iou": 0.4919942985038522,
+          "sdf_mae": 0.03248324514263206
+        },
+        "uroob": {
+          "iou": 0.19755234014949574,
+          "sdf_mae": 0.06313940675722228
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.35608265666127803,
+        "10": 0.3696811180054687,
+        "20": 0.37572837595158165
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "augmented-r12-l0.0001-b1",
+    "training": "augmented",
+    "config": {
+      "method": "pca",
+      "rank": 12,
+      "ridge": 0.0001,
+      "band": true,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.40475220704114684,
+        "sdf_mae": 0.06184111204412248
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.43550257472629367,
+          "sdf_mae": 0.053931129889355764
+        },
+        "manjari": {
+          "iou": 0.5169362616351554,
+          "sdf_mae": 0.03890054134858979
+        },
+        "uroob": {
+          "iou": 0.2618177847619914,
+          "sdf_mae": 0.09269166489442189
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.3936500869710342,
+        "10": 0.4058972684666479,
+        "20": 0.41470926568575833
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "augmented-r12-l0.001-b0",
+    "training": "augmented",
+    "config": {
+      "method": "pca",
+      "rank": 12,
+      "ridge": 0.001,
+      "band": false,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.30914928916921586,
+        "sdf_mae": 0.05590600575561877
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.35793673739589843,
+          "sdf_mae": 0.05902725499537256
+        },
+        "manjari": {
+          "iou": 0.41306363989252615,
+          "sdf_mae": 0.039184274358881846
+        },
+        "uroob": {
+          "iou": 0.15644749021922294,
+          "sdf_mae": 0.06950648791260189
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.30153986601579397,
+        "10": 0.3112814178079407,
+        "20": 0.3146265836839129
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "augmented-r12-l0.001-b1",
+    "training": "augmented",
+    "config": {
+      "method": "pca",
+      "rank": 12,
+      "ridge": 0.001,
+      "band": true,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.38405269194409875,
+        "sdf_mae": 0.060101622508631804
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.4171741575430562,
+          "sdf_mae": 0.05623143373264207
+        },
+        "manjari": {
+          "iou": 0.49349882303843096,
+          "sdf_mae": 0.0405242828031381
+        },
+        "uroob": {
+          "iou": 0.24148509525080902,
+          "sdf_mae": 0.08354915099011527
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.373937903679285,
+        "10": 0.38609334242972265,
+        "20": 0.3921268297232885
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "augmented-r12-l0.01-b0",
+    "training": "augmented",
+    "config": {
+      "method": "pca",
+      "rank": 12,
+      "ridge": 0.01,
+      "band": false,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.2297379783247079,
+        "sdf_mae": 0.06589576753753203
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.23112326487656734,
+          "sdf_mae": 0.07825514756970936
+        },
+        "manjari": {
+          "iou": 0.30335023364828034,
+          "sdf_mae": 0.046285148710012436
+        },
+        "uroob": {
+          "iou": 0.154740436449276,
+          "sdf_mae": 0.0731470063328743
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.22867605464153282,
+        "10": 0.23021187150445308,
+        "20": 0.2303260088281378
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  {
+    "id": "augmented-r12-l0.01-b1",
+    "training": "augmented",
+    "config": {
+      "method": "pca",
+      "rank": 12,
+      "ridge": 0.01,
+      "band": true,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.30347782164989895,
+        "sdf_mae": 0.061750598113845895
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.3267658781081797,
+          "sdf_mae": 0.06516769693957435
+        },
+        "manjari": {
+          "iou": 0.3943685509453006,
+          "sdf_mae": 0.04348460212349892
+        },
+        "uroob": {
+          "iou": 0.18929903589621652,
+          "sdf_mae": 0.07659949527846442
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.2977914974497902,
+        "10": 0.305370773491577,
+        "20": 0.30727119400832953
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  }
+]

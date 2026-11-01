@@ -1,0 +1,259 @@
+{
+  "fonts": [
+    {
+      "family": "anekmalayalam",
+      "repository": "google/fonts",
+      "commit": "6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec",
+      "font_filenames": [
+        "AnekMalayalam[wdth,wght].ttf"
+      ],
+      "source_paths": [
+        "ofl/anekmalayalam/AnekMalayalam[wdth,wght].ttf",
+        "ofl/anekmalayalam/OFL.txt",
+        "ofl/anekmalayalam/METADATA.pb",
+        "ofl/anekmalayalam/upstream_info.md"
+      ],
+      "license_filename": "OFL.txt",
+      "split": "train",
+      "lineage_group": "ektype-anek-malayalam",
+      "lineage_evidence": "Official family identity and upstream metadata; all Noto Malayalam variants conservatively grouped. Anek/Baloo are separate design families."
+    },
+    {
+      "family": "baloochettan2",
+      "repository": "google/fonts",
+      "commit": "6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec",
+      "font_filenames": [
+        "BalooChettan2[wght].ttf"
+      ],
+      "source_paths": [
+        "ofl/baloochettan2/BalooChettan2[wght].ttf",
+        "ofl/baloochettan2/OFL.txt",
+        "ofl/baloochettan2/METADATA.pb",
+        "ofl/baloochettan2/upstream_info.md"
+      ],
+      "license_filename": "OFL.txt",
+      "split": "validation",
+      "lineage_group": "ektype-baloo-chettan",
+      "lineage_evidence": "Official family identity and upstream metadata; all Noto Malayalam variants conservatively grouped. Anek/Baloo are separate design families."
+    },
+    {
+      "family": "chilanka",
+      "repository": "google/fonts",
+      "commit": "6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec",
+      "font_filenames": [
+        "Chilanka-Regular.ttf"
+      ],
+      "source_paths": [
+        "ofl/chilanka/Chilanka-Regular.ttf",
+        "ofl/chilanka/OFL.txt",
+        "ofl/chilanka/METADATA.pb",
+        "ofl/chilanka/upstream_info.md"
+      ],
+      "license_filename": "OFL.txt",
+      "split": "test",
+      "lineage_group": "smc-chilanka",
+      "lineage_evidence": "Official family identity and upstream metadata; all Noto Malayalam variants conservatively grouped. Anek/Baloo are separate design families."
+    },
+    {
+      "family": "gayathri",
+      "repository": "google/fonts",
+      "commit": "6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec",
+      "font_filenames": [
+        "Gayathri-Thin.ttf",
+        "Gayathri-Regular.ttf",
+        "Gayathri-Bold.ttf"
+      ],
+      "source_paths": [
+        "ofl/gayathri/Gayathri-Thin.ttf",
+        "ofl/gayathri/Gayathri-Regular.ttf",
+        "ofl/gayathri/Gayathri-Bold.ttf",
+        "ofl/gayathri/OFL.txt",
+        "ofl/gayathri/METADATA.pb",
+        "ofl/gayathri/upstream_info.md"
+      ],
+      "license_filename": "OFL.txt",
+      "split": "train",
+      "lineage_group": "smc-gayathri",
+      "lineage_evidence": "Official family identity and upstream metadata; all Noto Malayalam variants conservatively grouped. Anek/Baloo are separate design families."
+    },
+    {
+      "family": "manjari",
+      "repository": "google/fonts",
+      "commit": "6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec",
+      "font_filenames": [
+        "Manjari-Thin.ttf",
+        "Manjari-Regular.ttf",
+        "Manjari-Bold.ttf"
+      ],
+      "source_paths": [
+        "ofl/manjari/Manjari-Thin.ttf",
+        "ofl/manjari/Manjari-Regular.ttf",
+        "ofl/manjari/Manjari-Bold.ttf",
+        "ofl/manjari/OFL.txt",
+        "ofl/manjari/METADATA.pb",
+        "ofl/manjari/upstream_info.md"
+      ],
+      "license_filename": "OFL.txt",
+      "split": "validation",
+      "lineage_group": "smc-manjari",
+      "lineage_evidence": "Official family identity and upstream metadata; all Noto Malayalam variants conservatively grouped. Anek/Baloo are separate design families."
+    },
+    {
+      "family": "notosansmalayalam",
+      "repository": "google/fonts",
+      "commit": "6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec",
+      "font_filenames": [
+        "NotoSansMalayalam[wdth,wght].ttf"
+      ],
+      "source_paths": [
+        "ofl/notosansmalayalam/NotoSansMalayalam[wdth,wght].ttf",
+        "ofl/notosansmalayalam/OFL.txt",
+        "ofl/notosansmalayalam/METADATA.pb",
+        "ofl/notosansmalayalam/upstream_info.md"
+      ],
+      "license_filename": "OFL.txt",
+      "split": "test",
+      "lineage_group": "noto-malayalam",
+      "lineage_evidence": "Official family identity and upstream metadata; all Noto Malayalam variants conservatively grouped. Anek/Baloo are separate design families."
+    },
+    {
+      "family": "notoserifmalayalam",
+      "repository": "google/fonts",
+      "commit": "6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec",
+      "font_filenames": [
+        "NotoSerifMalayalam[wght].ttf"
+      ],
+      "source_paths": [
+        "ofl/notoserifmalayalam/NotoSerifMalayalam[wght].ttf",
+        "ofl/notoserifmalayalam/OFL.txt",
+        "ofl/notoserifmalayalam/METADATA.pb",
+        "ofl/notoserifmalayalam/upstream_info.md"
+      ],
+      "license_filename": "OFL.txt",
+      "split": "test",
+      "lineage_group": "noto-malayalam",
+      "lineage_evidence": "Official family identity and upstream metadata; all Noto Malayalam variants conservatively grouped. Anek/Baloo are separate design families."
+    },
+    {
+      "family": "anjalioldlipi",
+      "repository": "smc/AnjaliOldLipi",
+      "commit": "924e6bafca7c636869d2d6163f74ac945cff8e1f",
+      "font_filenames": [
+        "AnjaliOldLipi-Regular.ttf"
+      ],
+      "source_paths": [
+        "ttf/AnjaliOldLipi-Regular.ttf",
+        "LICENSE.txt",
+        "README.md"
+      ],
+      "license_filename": "LICENSE.txt",
+      "split": "train",
+      "lineage_group": "kevin-siji-designs",
+      "lineage_evidence": "Official README; AnjaliOldLipi/Karumbi share Kevin & Siji and are grouped conservatively; Meera is Rachana sans counterpart and grouped conservatively; Uroob/Bahadur would share a group. Different glyph designs are not grouped solely because they share shaping rules."
+    },
+    {
+      "family": "karumbi",
+      "repository": "smc/Karumbi",
+      "commit": "3fd416e6aa0f55a1db00d2c973f04943a398e67f",
+      "font_filenames": [
+        "Karumbi.ttf"
+      ],
+      "source_paths": [
+        "ttf/Karumbi.ttf",
+        "LICENSE.txt",
+        "README.md"
+      ],
+      "license_filename": "LICENSE.txt",
+      "split": "train",
+      "lineage_group": "kevin-siji-designs",
+      "lineage_evidence": "Official README; AnjaliOldLipi/Karumbi share Kevin & Siji and are grouped conservatively; Meera is Rachana sans counterpart and grouped conservatively; Uroob/Bahadur would share a group. Different glyph designs are not grouped solely because they share shaping rules."
+    },
+    {
+      "family": "dyuthi",
+      "repository": "smc/Dyuthi",
+      "commit": "2484364a8813a06098f4e6db552d48d2f4f5da29",
+      "font_filenames": [
+        "Dyuthi.ttf"
+      ],
+      "source_paths": [
+        "ttf/Dyuthi.ttf",
+        "LICENSE.txt",
+        "README.md"
+      ],
+      "license_filename": "LICENSE.txt",
+      "split": "train",
+      "lineage_group": "smc-dyuthi",
+      "lineage_evidence": "Official README; AnjaliOldLipi/Karumbi share Kevin & Siji and are grouped conservatively; Meera is Rachana sans counterpart and grouped conservatively; Uroob/Bahadur would share a group. Different glyph designs are not grouped solely because they share shaping rules."
+    },
+    {
+      "family": "rachana",
+      "repository": "smc/Rachana",
+      "commit": "1eb2feae74a9245afc16e43799be8c8e9a98e609",
+      "font_filenames": [
+        "Rachana-Bold.ttf",
+        "Rachana-Regular.ttf"
+      ],
+      "source_paths": [
+        "ttf/Rachana-Bold.ttf",
+        "ttf/Rachana-Regular.ttf",
+        "LICENSE.txt",
+        "README.md"
+      ],
+      "license_filename": "LICENSE.txt",
+      "split": "train",
+      "lineage_group": "rachana-meera-related",
+      "lineage_evidence": "Official README; AnjaliOldLipi/Karumbi share Kevin & Siji and are grouped conservatively; Meera is Rachana sans counterpart and grouped conservatively; Uroob/Bahadur would share a group. Different glyph designs are not grouped solely because they share shaping rules."
+    },
+    {
+      "family": "meera",
+      "repository": "smc/Meera",
+      "commit": "aebe37081332d93e02a83a8649120401967fc379",
+      "font_filenames": [
+        "Meera.ttf"
+      ],
+      "source_paths": [
+        "ttf/Meera.ttf",
+        "LICENSE.txt",
+        "README.md"
+      ],
+      "license_filename": "LICENSE.txt",
+      "split": "train",
+      "lineage_group": "rachana-meera-related",
+      "lineage_evidence": "Official README; AnjaliOldLipi/Karumbi share Kevin & Siji and are grouped conservatively; Meera is Rachana sans counterpart and grouped conservatively; Uroob/Bahadur would share a group. Different glyph designs are not grouped solely because they share shaping rules."
+    },
+    {
+      "family": "uroob",
+      "repository": "smc/Uroob",
+      "commit": "16de2527b2efbdd4b6ca0b4e402a91b5653595b4",
+      "font_filenames": [
+        "Uroob.ttf"
+      ],
+      "source_paths": [
+        "ttf/Uroob.ttf",
+        "LICENSE.txt",
+        "README.md"
+      ],
+      "license_filename": "LICENSE.txt",
+      "split": "validation",
+      "lineage_group": "uroob-related",
+      "lineage_evidence": "Official README; AnjaliOldLipi/Karumbi share Kevin & Siji and are grouped conservatively; Meera is Rachana sans counterpart and grouped conservatively; Uroob/Bahadur would share a group. Different glyph designs are not grouped solely because they share shaping rules."
+    },
+    {
+      "family": "malini",
+      "repository": "smc/Malini",
+      "commit": "cd65132475eb84e90c1c6b52054b7512cf7b06f6",
+      "font_filenames": [
+        "Malini-VF.ttf"
+      ],
+      "source_paths": [
+        "tests/Malini-VF.ttf",
+        "OFL.txt",
+        "README.md"
+      ],
+      "license_filename": "OFL.txt",
+      "split": "train",
+      "lineage_group": "smc-malini",
+      "lineage_evidence": "Official README; AnjaliOldLipi/Karumbi share Kevin & Siji and are grouped conservatively; Meera is Rachana sans counterpart and grouped conservatively; Uroob/Bahadur would share a group. Different glyph designs are not grouped solely because they share shaping rules."
+    }
+  ]
+}

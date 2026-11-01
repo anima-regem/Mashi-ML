@@ -1,0 +1,439 @@
+[
+  {
+    "id": "anekmalayalam/AnekMalayalam[wdth,wght].ttf/{\"wght\": 200}",
+    "family": "anekmalayalam",
+    "split": "train",
+    "lineage_group": "ektype-anek-malayalam",
+    "asset_sha256": "319ccd3dc61afce2a5f2e5f3ce16f555c1f385390e80d12af7b9d017dd4993fe",
+    "axes": {
+      "wght": 200
+    },
+    "is_regular": false,
+    "script_tags": [
+      "DFLT",
+      "latn",
+      "mlm2",
+      "mlym"
+    ]
+  },
+  {
+    "id": "anekmalayalam/AnekMalayalam[wdth,wght].ttf/{\"wght\": 500.0}",
+    "family": "anekmalayalam",
+    "split": "train",
+    "lineage_group": "ektype-anek-malayalam",
+    "asset_sha256": "319ccd3dc61afce2a5f2e5f3ce16f555c1f385390e80d12af7b9d017dd4993fe",
+    "axes": {
+      "wght": 500.0
+    },
+    "is_regular": false,
+    "script_tags": [
+      "DFLT",
+      "latn",
+      "mlm2",
+      "mlym"
+    ]
+  },
+  {
+    "id": "anekmalayalam/AnekMalayalam[wdth,wght].ttf/{\"wght\": 700}",
+    "family": "anekmalayalam",
+    "split": "train",
+    "lineage_group": "ektype-anek-malayalam",
+    "asset_sha256": "319ccd3dc61afce2a5f2e5f3ce16f555c1f385390e80d12af7b9d017dd4993fe",
+    "axes": {
+      "wght": 700
+    },
+    "is_regular": false,
+    "script_tags": [
+      "DFLT",
+      "latn",
+      "mlm2",
+      "mlym"
+    ]
+  },
+  {
+    "id": "baloochettan2/BalooChettan2[wght].ttf/{\"wght\": 400.0}",
+    "family": "baloochettan2",
+    "split": "validation",
+    "lineage_group": "ektype-baloo-chettan",
+    "asset_sha256": "8f0de4f81b40d314a129c55a3a9e58411868ca9a452edb57537488853f46db86",
+    "axes": {
+      "wght": 400.0
+    },
+    "is_regular": true,
+    "script_tags": [
+      "DFLT",
+      "latn",
+      "mlm2",
+      "mlym"
+    ]
+  },
+  {
+    "id": "baloochettan2/BalooChettan2[wght].ttf/{\"wght\": 700}",
+    "family": "baloochettan2",
+    "split": "validation",
+    "lineage_group": "ektype-baloo-chettan",
+    "asset_sha256": "8f0de4f81b40d314a129c55a3a9e58411868ca9a452edb57537488853f46db86",
+    "axes": {
+      "wght": 700
+    },
+    "is_regular": false,
+    "script_tags": [
+      "DFLT",
+      "latn",
+      "mlm2",
+      "mlym"
+    ]
+  },
+  {
+    "id": "chilanka/Chilanka-Regular.ttf/{}",
+    "family": "chilanka",
+    "split": "test",
+    "lineage_group": "smc-chilanka",
+    "asset_sha256": "c6ce47d1a8d387310469c8e355351ff2bd4106030c2a45f1cef0c93215075ed7",
+    "axes": {},
+    "is_regular": true,
+    "script_tags": [
+      "DFLT",
+      "latn",
+      "mlm2",
+      "mlym"
+    ]
+  },
+  {
+    "id": "gayathri/Gayathri-Thin.ttf/{}",
+    "family": "gayathri",
+    "split": "train",
+    "lineage_group": "smc-gayathri",
+    "asset_sha256": "5c60a888ea5c0d1d259a1803fdbe9d7fa5c8ef9edce952482efa9f59dde4519d",
+    "axes": {},
+    "is_regular": false,
+    "script_tags": [
+      "DFLT",
+      "latn",
+      "mlm2",
+      "mlym"
+    ]
+  },
+  {
+    "id": "gayathri/Gayathri-Regular.ttf/{}",
+    "family": "gayathri",
+    "split": "train",
+    "lineage_group": "smc-gayathri",
+    "asset_sha256": "c4fab5d994518247f78d96bf212a7d5b36563b60663136765fbaebd33a74d4f9",
+    "axes": {},
+    "is_regular": true,
+    "script_tags": [
+      "DFLT",
+      "latn",
+      "mlm2",
+      "mlym"
+    ]
+  },
+  {
+    "id": "gayathri/Gayathri-Bold.ttf/{}",
+    "family": "gayathri",
+    "split": "train",
+    "lineage_group": "smc-gayathri",
+    "asset_sha256": "ad62d4ab2990d5bba9203c205513a8e162a44a03c58269f9a8b138cad9c0d5e3",
+    "axes": {},
+    "is_regular": false,
+    "script_tags": [
+      "DFLT",
+      "latn",
+      "mlm2",
+      "mlym"
+    ]
+  },
+  {
+    "id": "manjari/Manjari-Thin.ttf/{}",
+    "family": "manjari",
+    "split": "validation",
+    "lineage_group": "smc-manjari",
+    "asset_sha256": "0eab2fd482b2b0e6cd469c53d09513a2303ff91c86dc8c1ba42acfc73242bd72",
+    "axes": {},
+    "is_regular": false,
+    "script_tags": [
+      "DFLT",
+      "latn",
+      "mlm2",
+      "mlym"
+    ]
+  },
+  {
+    "id": "manjari/Manjari-Regular.ttf/{}",
+    "family": "manjari",
+    "split": "validation",
+    "lineage_group": "smc-manjari",
+    "asset_sha256": "16460924696bfea2a2f71b4201d8786867c6413b548ecbd22bc6bfe55be90f95",
+    "axes": {},
+    "is_regular": true,
+    "script_tags": [
+      "DFLT",
+      "latn",
+      "mlm2",
+      "mlym"
+    ]
+  },
+  {
+    "id": "manjari/Manjari-Bold.ttf/{}",
+    "family": "manjari",
+    "split": "validation",
+    "lineage_group": "smc-manjari",
+    "asset_sha256": "f19fef695b28e5448ae87451dfbab426676cadf4b59340558a157c0071b69d26",
+    "axes": {},
+    "is_regular": false,
+    "script_tags": [
+      "DFLT",
+      "latn",
+      "mlm2",
+      "mlym"
+    ]
+  },
+  {
+    "id": "notosansmalayalam/NotoSansMalayalam[wdth,wght].ttf/{\"wght\": 200}",
+    "family": "notosansmalayalam",
+    "split": "test",
+    "lineage_group": "noto-malayalam",
+    "asset_sha256": "312e0e7c3cc15fa09eb42a8f749eeb246b593ed420e3c81aafe8d910c3a6fb56",
+    "axes": {
+      "wght": 200
+    },
+    "is_regular": false,
+    "script_tags": [
+      "latn",
+      "mlm2",
+      "mlym"
+    ]
+  },
+  {
+    "id": "notosansmalayalam/NotoSansMalayalam[wdth,wght].ttf/{\"wght\": 400.0}",
+    "family": "notosansmalayalam",
+    "split": "test",
+    "lineage_group": "noto-malayalam",
+    "asset_sha256": "312e0e7c3cc15fa09eb42a8f749eeb246b593ed420e3c81aafe8d910c3a6fb56",
+    "axes": {
+      "wght": 400.0
+    },
+    "is_regular": true,
+    "script_tags": [
+      "latn",
+      "mlm2",
+      "mlym"
+    ]
+  },
+  {
+    "id": "notosansmalayalam/NotoSansMalayalam[wdth,wght].ttf/{\"wght\": 700}",
+    "family": "notosansmalayalam",
+    "split": "test",
+    "lineage_group": "noto-malayalam",
+    "asset_sha256": "312e0e7c3cc15fa09eb42a8f749eeb246b593ed420e3c81aafe8d910c3a6fb56",
+    "axes": {
+      "wght": 700
+    },
+    "is_regular": false,
+    "script_tags": [
+      "latn",
+      "mlm2",
+      "mlym"
+    ]
+  },
+  {
+    "id": "notoserifmalayalam/NotoSerifMalayalam[wght].ttf/{\"wght\": 200}",
+    "family": "notoserifmalayalam",
+    "split": "test",
+    "lineage_group": "noto-malayalam",
+    "asset_sha256": "eed354cadb35992df6e8b32fdb7edb399989b165f0f25e7a921009683db26e8e",
+    "axes": {
+      "wght": 200
+    },
+    "is_regular": false,
+    "script_tags": [
+      "DFLT",
+      "latn",
+      "mlm2",
+      "mlym"
+    ]
+  },
+  {
+    "id": "notoserifmalayalam/NotoSerifMalayalam[wght].ttf/{\"wght\": 400.0}",
+    "family": "notoserifmalayalam",
+    "split": "test",
+    "lineage_group": "noto-malayalam",
+    "asset_sha256": "eed354cadb35992df6e8b32fdb7edb399989b165f0f25e7a921009683db26e8e",
+    "axes": {
+      "wght": 400.0
+    },
+    "is_regular": true,
+    "script_tags": [
+      "DFLT",
+      "latn",
+      "mlm2",
+      "mlym"
+    ]
+  },
+  {
+    "id": "notoserifmalayalam/NotoSerifMalayalam[wght].ttf/{\"wght\": 700}",
+    "family": "notoserifmalayalam",
+    "split": "test",
+    "lineage_group": "noto-malayalam",
+    "asset_sha256": "eed354cadb35992df6e8b32fdb7edb399989b165f0f25e7a921009683db26e8e",
+    "axes": {
+      "wght": 700
+    },
+    "is_regular": false,
+    "script_tags": [
+      "DFLT",
+      "latn",
+      "mlm2",
+      "mlym"
+    ]
+  },
+  {
+    "id": "anjalioldlipi/AnjaliOldLipi-Regular.ttf/{}",
+    "family": "anjalioldlipi",
+    "split": "train",
+    "lineage_group": "kevin-siji-designs",
+    "asset_sha256": "2b449727f8bf1a7f687216a091494bd42b0d722990016d9e3298fe1372a0b3e2",
+    "axes": {},
+    "is_regular": true,
+    "script_tags": [
+      "DFLT",
+      "latn",
+      "mlm2",
+      "mlym"
+    ]
+  },
+  {
+    "id": "karumbi/Karumbi.ttf/{}",
+    "family": "karumbi",
+    "split": "train",
+    "lineage_group": "kevin-siji-designs",
+    "asset_sha256": "f7f0933f010c599bd13ee3249dfce471377aadd10a91e5489a97dafd9d187e0d",
+    "axes": {},
+    "is_regular": true,
+    "script_tags": [
+      "DFLT",
+      "mlm2",
+      "mlym"
+    ]
+  },
+  {
+    "id": "dyuthi/Dyuthi.ttf/{}",
+    "family": "dyuthi",
+    "split": "train",
+    "lineage_group": "smc-dyuthi",
+    "asset_sha256": "9ae2b8bf5a873eb8fc8a37f98bd340c2b3b7375f743a1bd736a3295a0688dd50",
+    "axes": {},
+    "is_regular": true,
+    "script_tags": [
+      "mlm2",
+      "mlym"
+    ]
+  },
+  {
+    "id": "rachana/Rachana-Bold.ttf/{}",
+    "family": "rachana",
+    "split": "train",
+    "lineage_group": "rachana-meera-related",
+    "asset_sha256": "b4ec5fae2950825a6f807afdd05edf3dd4aaf6519e4641e21c8567cbf1ede7b8",
+    "axes": {},
+    "is_regular": false,
+    "script_tags": [
+      "DFLT",
+      "latn",
+      "mlm2",
+      "mlym"
+    ]
+  },
+  {
+    "id": "rachana/Rachana-Regular.ttf/{}",
+    "family": "rachana",
+    "split": "train",
+    "lineage_group": "rachana-meera-related",
+    "asset_sha256": "b20cde573e9a5cba55492915156f715bd75cff9897fd50d220fbc8d52256e90b",
+    "axes": {},
+    "is_regular": true,
+    "script_tags": [
+      "DFLT",
+      "latn",
+      "mlm2",
+      "mlym"
+    ]
+  },
+  {
+    "id": "meera/Meera.ttf/{}",
+    "family": "meera",
+    "split": "train",
+    "lineage_group": "rachana-meera-related",
+    "asset_sha256": "2ed5284289a42168dfac3227dc3d6c8da7169249dc5f822f8b4424fd5731bf67",
+    "axes": {},
+    "is_regular": true,
+    "script_tags": [
+      "DFLT",
+      "latn",
+      "mlm2",
+      "mlym"
+    ]
+  },
+  {
+    "id": "uroob/Uroob.ttf/{}",
+    "family": "uroob",
+    "split": "validation",
+    "lineage_group": "uroob-related",
+    "asset_sha256": "45a29966508be9dd27c8925f72547201b49361529e64bc084efe5ff9371fd4f4",
+    "axes": {},
+    "is_regular": true,
+    "script_tags": []
+  },
+  {
+    "id": "malini/Malini-VF.ttf/{\"wght\": 200}",
+    "family": "malini",
+    "split": "train",
+    "lineage_group": "smc-malini",
+    "asset_sha256": "5b8dece409970b9def3c1e8a42e69f14a19440b5d961a8f88befa593463c375c",
+    "axes": {
+      "wght": 200
+    },
+    "is_regular": false,
+    "script_tags": [
+      "DFLT",
+      "latn",
+      "mlm2",
+      "mlym"
+    ]
+  },
+  {
+    "id": "malini/Malini-VF.ttf/{\"wght\": 400.0}",
+    "family": "malini",
+    "split": "train",
+    "lineage_group": "smc-malini",
+    "asset_sha256": "5b8dece409970b9def3c1e8a42e69f14a19440b5d961a8f88befa593463c375c",
+    "axes": {
+      "wght": 400.0
+    },
+    "is_regular": true,
+    "script_tags": [
+      "DFLT",
+      "latn",
+      "mlm2",
+      "mlym"
+    ]
+  },
+  {
+    "id": "malini/Malini-VF.ttf/{\"wght\": 700}",
+    "family": "malini",
+    "split": "train",
+    "lineage_group": "smc-malini",
+    "asset_sha256": "5b8dece409970b9def3c1e8a42e69f14a19440b5d961a8f88befa593463c375c",
+    "axes": {
+      "wght": 700
+    },
+    "is_regular": false,
+    "script_tags": [
+      "DFLT",
+      "latn",
+      "mlm2",
+      "mlym"
+    ]
+  }
+]

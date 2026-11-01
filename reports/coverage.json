@@ -1,0 +1,1004 @@
+[
+  {
+    "instance_id": "anekmalayalam/AnekMalayalam[wdth,wght].ttf/{\"wght\": 200}",
+    "family": "anekmalayalam",
+    "split": "train",
+    "trained_sequences": 698,
+    "available_trained_sequences": 698,
+    "excluded_trained_sequences": [],
+    "by_tier": {
+      "basic": {
+        "eligible": 65,
+        "available": 65
+      },
+      "conjunct": {
+        "eligible": 159,
+        "available": 159
+      },
+      "explicit-nonjoiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "legacy-joiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "virama": {
+        "eligible": 36,
+        "available": 36
+      },
+      "vowel-context": {
+        "eligible": 428,
+        "available": 428
+      }
+    }
+  },
+  {
+    "instance_id": "anekmalayalam/AnekMalayalam[wdth,wght].ttf/{\"wght\": 500.0}",
+    "family": "anekmalayalam",
+    "split": "train",
+    "trained_sequences": 698,
+    "available_trained_sequences": 698,
+    "excluded_trained_sequences": [],
+    "by_tier": {
+      "basic": {
+        "eligible": 65,
+        "available": 65
+      },
+      "conjunct": {
+        "eligible": 159,
+        "available": 159
+      },
+      "explicit-nonjoiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "legacy-joiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "virama": {
+        "eligible": 36,
+        "available": 36
+      },
+      "vowel-context": {
+        "eligible": 428,
+        "available": 428
+      }
+    }
+  },
+  {
+    "instance_id": "anekmalayalam/AnekMalayalam[wdth,wght].ttf/{\"wght\": 700}",
+    "family": "anekmalayalam",
+    "split": "train",
+    "trained_sequences": 698,
+    "available_trained_sequences": 698,
+    "excluded_trained_sequences": [],
+    "by_tier": {
+      "basic": {
+        "eligible": 65,
+        "available": 65
+      },
+      "conjunct": {
+        "eligible": 159,
+        "available": 159
+      },
+      "explicit-nonjoiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "legacy-joiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "virama": {
+        "eligible": 36,
+        "available": 36
+      },
+      "vowel-context": {
+        "eligible": 428,
+        "available": 428
+      }
+    }
+  },
+  {
+    "instance_id": "baloochettan2/BalooChettan2[wght].ttf/{\"wght\": 400.0}",
+    "family": "baloochettan2",
+    "split": "validation",
+    "trained_sequences": 698,
+    "available_trained_sequences": 694,
+    "excluded_trained_sequences": [
+      "ഞ്ഞാ",
+      "ഞ്ഞു",
+      "ണ്ണാ",
+      "ബ്ബാ"
+    ],
+    "by_tier": {
+      "basic": {
+        "eligible": 65,
+        "available": 65
+      },
+      "conjunct": {
+        "eligible": 159,
+        "available": 155
+      },
+      "explicit-nonjoiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "legacy-joiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "virama": {
+        "eligible": 36,
+        "available": 36
+      },
+      "vowel-context": {
+        "eligible": 428,
+        "available": 428
+      }
+    }
+  },
+  {
+    "instance_id": "baloochettan2/BalooChettan2[wght].ttf/{\"wght\": 700}",
+    "family": "baloochettan2",
+    "split": "validation",
+    "trained_sequences": 698,
+    "available_trained_sequences": 692,
+    "excluded_trained_sequences": [
+      "ഞ്ഞാ",
+      "ഞ്ഞു",
+      "ണ്ണാ",
+      "ണ്ണു",
+      "ബ്ബാ",
+      "ബ്ബു"
+    ],
+    "by_tier": {
+      "basic": {
+        "eligible": 65,
+        "available": 65
+      },
+      "conjunct": {
+        "eligible": 159,
+        "available": 153
+      },
+      "explicit-nonjoiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "legacy-joiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "virama": {
+        "eligible": 36,
+        "available": 36
+      },
+      "vowel-context": {
+        "eligible": 428,
+        "available": 428
+      }
+    }
+  },
+  {
+    "instance_id": "chilanka/Chilanka-Regular.ttf/{}",
+    "family": "chilanka",
+    "split": "test",
+    "trained_sequences": 698,
+    "available_trained_sequences": 697,
+    "excluded_trained_sequences": [
+      "ളൂ"
+    ],
+    "by_tier": {
+      "basic": {
+        "eligible": 65,
+        "available": 65
+      },
+      "conjunct": {
+        "eligible": 159,
+        "available": 159
+      },
+      "explicit-nonjoiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "legacy-joiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "virama": {
+        "eligible": 36,
+        "available": 36
+      },
+      "vowel-context": {
+        "eligible": 428,
+        "available": 427
+      }
+    }
+  },
+  {
+    "instance_id": "gayathri/Gayathri-Thin.ttf/{}",
+    "family": "gayathri",
+    "split": "train",
+    "trained_sequences": 698,
+    "available_trained_sequences": 698,
+    "excluded_trained_sequences": [],
+    "by_tier": {
+      "basic": {
+        "eligible": 65,
+        "available": 65
+      },
+      "conjunct": {
+        "eligible": 159,
+        "available": 159
+      },
+      "explicit-nonjoiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "legacy-joiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "virama": {
+        "eligible": 36,
+        "available": 36
+      },
+      "vowel-context": {
+        "eligible": 428,
+        "available": 428
+      }
+    }
+  },
+  {
+    "instance_id": "gayathri/Gayathri-Regular.ttf/{}",
+    "family": "gayathri",
+    "split": "train",
+    "trained_sequences": 698,
+    "available_trained_sequences": 698,
+    "excluded_trained_sequences": [],
+    "by_tier": {
+      "basic": {
+        "eligible": 65,
+        "available": 65
+      },
+      "conjunct": {
+        "eligible": 159,
+        "available": 159
+      },
+      "explicit-nonjoiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "legacy-joiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "virama": {
+        "eligible": 36,
+        "available": 36
+      },
+      "vowel-context": {
+        "eligible": 428,
+        "available": 428
+      }
+    }
+  },
+  {
+    "instance_id": "gayathri/Gayathri-Bold.ttf/{}",
+    "family": "gayathri",
+    "split": "train",
+    "trained_sequences": 698,
+    "available_trained_sequences": 698,
+    "excluded_trained_sequences": [],
+    "by_tier": {
+      "basic": {
+        "eligible": 65,
+        "available": 65
+      },
+      "conjunct": {
+        "eligible": 159,
+        "available": 159
+      },
+      "explicit-nonjoiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "legacy-joiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "virama": {
+        "eligible": 36,
+        "available": 36
+      },
+      "vowel-context": {
+        "eligible": 428,
+        "available": 428
+      }
+    }
+  },
+  {
+    "instance_id": "manjari/Manjari-Thin.ttf/{}",
+    "family": "manjari",
+    "split": "validation",
+    "trained_sequences": 698,
+    "available_trained_sequences": 696,
+    "excluded_trained_sequences": [
+      "ഗ്ഗു",
+      "ല്പു"
+    ],
+    "by_tier": {
+      "basic": {
+        "eligible": 65,
+        "available": 65
+      },
+      "conjunct": {
+        "eligible": 159,
+        "available": 157
+      },
+      "explicit-nonjoiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "legacy-joiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "virama": {
+        "eligible": 36,
+        "available": 36
+      },
+      "vowel-context": {
+        "eligible": 428,
+        "available": 428
+      }
+    }
+  },
+  {
+    "instance_id": "manjari/Manjari-Regular.ttf/{}",
+    "family": "manjari",
+    "split": "validation",
+    "trained_sequences": 698,
+    "available_trained_sequences": 697,
+    "excluded_trained_sequences": [
+      "ഗ്ഗു"
+    ],
+    "by_tier": {
+      "basic": {
+        "eligible": 65,
+        "available": 65
+      },
+      "conjunct": {
+        "eligible": 159,
+        "available": 158
+      },
+      "explicit-nonjoiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "legacy-joiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "virama": {
+        "eligible": 36,
+        "available": 36
+      },
+      "vowel-context": {
+        "eligible": 428,
+        "available": 428
+      }
+    }
+  },
+  {
+    "instance_id": "manjari/Manjari-Bold.ttf/{}",
+    "family": "manjari",
+    "split": "validation",
+    "trained_sequences": 698,
+    "available_trained_sequences": 697,
+    "excluded_trained_sequences": [
+      "ഗ്ഗു"
+    ],
+    "by_tier": {
+      "basic": {
+        "eligible": 65,
+        "available": 65
+      },
+      "conjunct": {
+        "eligible": 159,
+        "available": 158
+      },
+      "explicit-nonjoiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "legacy-joiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "virama": {
+        "eligible": 36,
+        "available": 36
+      },
+      "vowel-context": {
+        "eligible": 428,
+        "available": 428
+      }
+    }
+  },
+  {
+    "instance_id": "notosansmalayalam/NotoSansMalayalam[wdth,wght].ttf/{\"wght\": 200}",
+    "family": "notosansmalayalam",
+    "split": "test",
+    "trained_sequences": 698,
+    "available_trained_sequences": 698,
+    "excluded_trained_sequences": [],
+    "by_tier": {
+      "basic": {
+        "eligible": 65,
+        "available": 65
+      },
+      "conjunct": {
+        "eligible": 159,
+        "available": 159
+      },
+      "explicit-nonjoiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "legacy-joiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "virama": {
+        "eligible": 36,
+        "available": 36
+      },
+      "vowel-context": {
+        "eligible": 428,
+        "available": 428
+      }
+    }
+  },
+  {
+    "instance_id": "notosansmalayalam/NotoSansMalayalam[wdth,wght].ttf/{\"wght\": 400.0}",
+    "family": "notosansmalayalam",
+    "split": "test",
+    "trained_sequences": 698,
+    "available_trained_sequences": 698,
+    "excluded_trained_sequences": [],
+    "by_tier": {
+      "basic": {
+        "eligible": 65,
+        "available": 65
+      },
+      "conjunct": {
+        "eligible": 159,
+        "available": 159
+      },
+      "explicit-nonjoiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "legacy-joiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "virama": {
+        "eligible": 36,
+        "available": 36
+      },
+      "vowel-context": {
+        "eligible": 428,
+        "available": 428
+      }
+    }
+  },
+  {
+    "instance_id": "notosansmalayalam/NotoSansMalayalam[wdth,wght].ttf/{\"wght\": 700}",
+    "family": "notosansmalayalam",
+    "split": "test",
+    "trained_sequences": 698,
+    "available_trained_sequences": 678,
+    "excluded_trained_sequences": [
+      "ഘൈ",
+      "ഘൌ",
+      "ഛൈ",
+      "ഛൌ",
+      "ഝൊ",
+      "ഝോ",
+      "ഞൊ",
+      "ഡൌ",
+      "ഢൈ",
+      "ഢൌ",
+      "ണൈ",
+      "ണൌ",
+      "ബൈ",
+      "ബൌ",
+      "സൌ",
+      "ജ്ഞാ",
+      "ജ്ഞു",
+      "ഞ്ഞാ",
+      "ബ്ധാ",
+      "സ്താ"
+    ],
+    "by_tier": {
+      "basic": {
+        "eligible": 65,
+        "available": 65
+      },
+      "conjunct": {
+        "eligible": 159,
+        "available": 154
+      },
+      "explicit-nonjoiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "legacy-joiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "virama": {
+        "eligible": 36,
+        "available": 36
+      },
+      "vowel-context": {
+        "eligible": 428,
+        "available": 413
+      }
+    }
+  },
+  {
+    "instance_id": "notoserifmalayalam/NotoSerifMalayalam[wght].ttf/{\"wght\": 200}",
+    "family": "notoserifmalayalam",
+    "split": "test",
+    "trained_sequences": 698,
+    "available_trained_sequences": 698,
+    "excluded_trained_sequences": [],
+    "by_tier": {
+      "basic": {
+        "eligible": 65,
+        "available": 65
+      },
+      "conjunct": {
+        "eligible": 159,
+        "available": 159
+      },
+      "explicit-nonjoiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "legacy-joiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "virama": {
+        "eligible": 36,
+        "available": 36
+      },
+      "vowel-context": {
+        "eligible": 428,
+        "available": 428
+      }
+    }
+  },
+  {
+    "instance_id": "notoserifmalayalam/NotoSerifMalayalam[wght].ttf/{\"wght\": 400.0}",
+    "family": "notoserifmalayalam",
+    "split": "test",
+    "trained_sequences": 698,
+    "available_trained_sequences": 698,
+    "excluded_trained_sequences": [],
+    "by_tier": {
+      "basic": {
+        "eligible": 65,
+        "available": 65
+      },
+      "conjunct": {
+        "eligible": 159,
+        "available": 159
+      },
+      "explicit-nonjoiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "legacy-joiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "virama": {
+        "eligible": 36,
+        "available": 36
+      },
+      "vowel-context": {
+        "eligible": 428,
+        "available": 428
+      }
+    }
+  },
+  {
+    "instance_id": "notoserifmalayalam/NotoSerifMalayalam[wght].ttf/{\"wght\": 700}",
+    "family": "notoserifmalayalam",
+    "split": "test",
+    "trained_sequences": 698,
+    "available_trained_sequences": 693,
+    "excluded_trained_sequences": [
+      "ണൈ",
+      "ണൌ",
+      "ബൌ",
+      "ജ്ഞാ",
+      "ബ്ധാ"
+    ],
+    "by_tier": {
+      "basic": {
+        "eligible": 65,
+        "available": 65
+      },
+      "conjunct": {
+        "eligible": 159,
+        "available": 157
+      },
+      "explicit-nonjoiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "legacy-joiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "virama": {
+        "eligible": 36,
+        "available": 36
+      },
+      "vowel-context": {
+        "eligible": 428,
+        "available": 425
+      }
+    }
+  },
+  {
+    "instance_id": "anjalioldlipi/AnjaliOldLipi-Regular.ttf/{}",
+    "family": "anjalioldlipi",
+    "split": "train",
+    "trained_sequences": 698,
+    "available_trained_sequences": 698,
+    "excluded_trained_sequences": [],
+    "by_tier": {
+      "basic": {
+        "eligible": 65,
+        "available": 65
+      },
+      "conjunct": {
+        "eligible": 159,
+        "available": 159
+      },
+      "explicit-nonjoiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "legacy-joiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "virama": {
+        "eligible": 36,
+        "available": 36
+      },
+      "vowel-context": {
+        "eligible": 428,
+        "available": 428
+      }
+    }
+  },
+  {
+    "instance_id": "karumbi/Karumbi.ttf/{}",
+    "family": "karumbi",
+    "split": "train",
+    "trained_sequences": 698,
+    "available_trained_sequences": 698,
+    "excluded_trained_sequences": [],
+    "by_tier": {
+      "basic": {
+        "eligible": 65,
+        "available": 65
+      },
+      "conjunct": {
+        "eligible": 159,
+        "available": 159
+      },
+      "explicit-nonjoiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "legacy-joiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "virama": {
+        "eligible": 36,
+        "available": 36
+      },
+      "vowel-context": {
+        "eligible": 428,
+        "available": 428
+      }
+    }
+  },
+  {
+    "instance_id": "dyuthi/Dyuthi.ttf/{}",
+    "family": "dyuthi",
+    "split": "train",
+    "trained_sequences": 698,
+    "available_trained_sequences": 698,
+    "excluded_trained_sequences": [],
+    "by_tier": {
+      "basic": {
+        "eligible": 65,
+        "available": 65
+      },
+      "conjunct": {
+        "eligible": 159,
+        "available": 159
+      },
+      "explicit-nonjoiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "legacy-joiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "virama": {
+        "eligible": 36,
+        "available": 36
+      },
+      "vowel-context": {
+        "eligible": 428,
+        "available": 428
+      }
+    }
+  },
+  {
+    "instance_id": "rachana/Rachana-Bold.ttf/{}",
+    "family": "rachana",
+    "split": "train",
+    "trained_sequences": 698,
+    "available_trained_sequences": 698,
+    "excluded_trained_sequences": [],
+    "by_tier": {
+      "basic": {
+        "eligible": 65,
+        "available": 65
+      },
+      "conjunct": {
+        "eligible": 159,
+        "available": 159
+      },
+      "explicit-nonjoiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "legacy-joiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "virama": {
+        "eligible": 36,
+        "available": 36
+      },
+      "vowel-context": {
+        "eligible": 428,
+        "available": 428
+      }
+    }
+  },
+  {
+    "instance_id": "rachana/Rachana-Regular.ttf/{}",
+    "family": "rachana",
+    "split": "train",
+    "trained_sequences": 698,
+    "available_trained_sequences": 698,
+    "excluded_trained_sequences": [],
+    "by_tier": {
+      "basic": {
+        "eligible": 65,
+        "available": 65
+      },
+      "conjunct": {
+        "eligible": 159,
+        "available": 159
+      },
+      "explicit-nonjoiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "legacy-joiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "virama": {
+        "eligible": 36,
+        "available": 36
+      },
+      "vowel-context": {
+        "eligible": 428,
+        "available": 428
+      }
+    }
+  },
+  {
+    "instance_id": "meera/Meera.ttf/{}",
+    "family": "meera",
+    "split": "train",
+    "trained_sequences": 698,
+    "available_trained_sequences": 698,
+    "excluded_trained_sequences": [],
+    "by_tier": {
+      "basic": {
+        "eligible": 65,
+        "available": 65
+      },
+      "conjunct": {
+        "eligible": 159,
+        "available": 159
+      },
+      "explicit-nonjoiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "legacy-joiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "virama": {
+        "eligible": 36,
+        "available": 36
+      },
+      "vowel-context": {
+        "eligible": 428,
+        "available": 428
+      }
+    }
+  },
+  {
+    "instance_id": "uroob/Uroob.ttf/{}",
+    "family": "uroob",
+    "split": "validation",
+    "trained_sequences": 698,
+    "available_trained_sequences": 697,
+    "excluded_trained_sequences": [
+      "ൿ"
+    ],
+    "by_tier": {
+      "basic": {
+        "eligible": 65,
+        "available": 64
+      },
+      "conjunct": {
+        "eligible": 159,
+        "available": 159
+      },
+      "explicit-nonjoiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "legacy-joiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "virama": {
+        "eligible": 36,
+        "available": 36
+      },
+      "vowel-context": {
+        "eligible": 428,
+        "available": 428
+      }
+    }
+  },
+  {
+    "instance_id": "malini/Malini-VF.ttf/{\"wght\": 200}",
+    "family": "malini",
+    "split": "train",
+    "trained_sequences": 698,
+    "available_trained_sequences": 698,
+    "excluded_trained_sequences": [],
+    "by_tier": {
+      "basic": {
+        "eligible": 65,
+        "available": 65
+      },
+      "conjunct": {
+        "eligible": 159,
+        "available": 159
+      },
+      "explicit-nonjoiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "legacy-joiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "virama": {
+        "eligible": 36,
+        "available": 36
+      },
+      "vowel-context": {
+        "eligible": 428,
+        "available": 428
+      }
+    }
+  },
+  {
+    "instance_id": "malini/Malini-VF.ttf/{\"wght\": 400.0}",
+    "family": "malini",
+    "split": "train",
+    "trained_sequences": 698,
+    "available_trained_sequences": 698,
+    "excluded_trained_sequences": [],
+    "by_tier": {
+      "basic": {
+        "eligible": 65,
+        "available": 65
+      },
+      "conjunct": {
+        "eligible": 159,
+        "available": 159
+      },
+      "explicit-nonjoiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "legacy-joiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "virama": {
+        "eligible": 36,
+        "available": 36
+      },
+      "vowel-context": {
+        "eligible": 428,
+        "available": 428
+      }
+    }
+  },
+  {
+    "instance_id": "malini/Malini-VF.ttf/{\"wght\": 700}",
+    "family": "malini",
+    "split": "train",
+    "trained_sequences": 698,
+    "available_trained_sequences": 698,
+    "excluded_trained_sequences": [],
+    "by_tier": {
+      "basic": {
+        "eligible": 65,
+        "available": 65
+      },
+      "conjunct": {
+        "eligible": 159,
+        "available": 159
+      },
+      "explicit-nonjoiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "legacy-joiner": {
+        "eligible": 5,
+        "available": 5
+      },
+      "virama": {
+        "eligible": 36,
+        "available": 36
+      },
+      "vowel-context": {
+        "eligible": 428,
+        "available": 428
+      }
+    }
+  }
+]

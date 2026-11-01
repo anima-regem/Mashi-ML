@@ -1,0 +1,24 @@
+{
+  "excluded": [
+    {
+      "source": "smc/RaghuMalayalamSans",
+      "reason": "Exact licence is GPL-2.0; this campaign selected OFL corpus only."
+    },
+    {
+      "source": "smc/Suruma",
+      "reason": "Exact licence is GPL-3.0 with font exception; not in selected OFL corpus."
+    },
+    {
+      "source": "rit-fonts/*",
+      "reason": "Partial licence/readme audit succeeded but GitLab HTTP429 prevented complete pinned binary acquisition; ZERO RIT font images used."
+    },
+    {
+      "source": "smc/nupuram",
+      "reason": "Official repo has no prebuilt TTF in inspected tree; source build outside bounded first campaign."
+    },
+    {
+      "source": "google/fonts/ofl/meerainimai",
+      "reason": "Tamil family, not Malayalam."
+    }
+  ]
+}

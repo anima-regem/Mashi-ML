@@ -1,0 +1,498 @@
+{
+  "candidate_sequences": 711,
+  "train_supported_sequences": 698,
+  "supported_by_tier": {
+    "basic": 65,
+    "vowel-context": 428,
+    "virama": 36,
+    "conjunct": 159,
+    "legacy-joiner": 5,
+    "explicit-nonjoiner": 5
+  },
+  "train_excluded_sequences": [
+    {
+      "sequence": "ഝൈ",
+      "codepoints": [
+        "U+0D1D",
+        "U+0D48"
+      ],
+      "tier": "vowel-context",
+      "unicode_names": [
+        "MALAYALAM LETTER JHA",
+        "MALAYALAM VOWEL SIGN AI"
+      ],
+      "label_policy": "Exact codepoint sequence; no NFC replacement or joiner deletion."
+    },
+    {
+      "sequence": "ഝൌ",
+      "codepoints": [
+        "U+0D1D",
+        "U+0D4C"
+      ],
+      "tier": "vowel-context",
+      "unicode_names": [
+        "MALAYALAM LETTER JHA",
+        "MALAYALAM VOWEL SIGN AU"
+      ],
+      "label_policy": "Exact codepoint sequence; no NFC replacement or joiner deletion."
+    },
+    {
+      "sequence": "ഞൈ",
+      "codepoints": [
+        "U+0D1E",
+        "U+0D48"
+      ],
+      "tier": "vowel-context",
+      "unicode_names": [
+        "MALAYALAM LETTER NYA",
+        "MALAYALAM VOWEL SIGN AI"
+      ],
+      "label_policy": "Exact codepoint sequence; no NFC replacement or joiner deletion."
+    },
+    {
+      "sequence": "ഞൌ",
+      "codepoints": [
+        "U+0D1E",
+        "U+0D4C"
+      ],
+      "tier": "vowel-context",
+      "unicode_names": [
+        "MALAYALAM LETTER NYA",
+        "MALAYALAM VOWEL SIGN AU"
+      ],
+      "label_policy": "Exact codepoint sequence; no NFC replacement or joiner deletion."
+    },
+    {
+      "sequence": "പ്പു",
+      "codepoints": [
+        "U+0D2A",
+        "U+0D4D",
+        "U+0D2A",
+        "U+0D41"
+      ],
+      "tier": "conjunct",
+      "unicode_names": [
+        "MALAYALAM LETTER PA",
+        "MALAYALAM SIGN VIRAMA",
+        "MALAYALAM LETTER PA",
+        "MALAYALAM VOWEL SIGN U"
+      ],
+      "label_policy": "Exact codepoint sequence; no NFC replacement or joiner deletion."
+    },
+    {
+      "sequence": "ബ്ധു",
+      "codepoints": [
+        "U+0D2C",
+        "U+0D4D",
+        "U+0D27",
+        "U+0D41"
+      ],
+      "tier": "conjunct",
+      "unicode_names": [
+        "MALAYALAM LETTER BA",
+        "MALAYALAM SIGN VIRAMA",
+        "MALAYALAM LETTER DHA",
+        "MALAYALAM VOWEL SIGN U"
+      ],
+      "label_policy": "Exact codepoint sequence; no NFC replacement or joiner deletion."
+    },
+    {
+      "sequence": "ല്ലു",
+      "codepoints": [
+        "U+0D32",
+        "U+0D4D",
+        "U+0D32",
+        "U+0D41"
+      ],
+      "tier": "conjunct",
+      "unicode_names": [
+        "MALAYALAM LETTER LA",
+        "MALAYALAM SIGN VIRAMA",
+        "MALAYALAM LETTER LA",
+        "MALAYALAM VOWEL SIGN U"
+      ],
+      "label_policy": "Exact codepoint sequence; no NFC replacement or joiner deletion."
+    },
+    {
+      "sequence": "ല്മു",
+      "codepoints": [
+        "U+0D32",
+        "U+0D4D",
+        "U+0D2E",
+        "U+0D41"
+      ],
+      "tier": "conjunct",
+      "unicode_names": [
+        "MALAYALAM LETTER LA",
+        "MALAYALAM SIGN VIRAMA",
+        "MALAYALAM LETTER MA",
+        "MALAYALAM VOWEL SIGN U"
+      ],
+      "label_policy": "Exact codepoint sequence; no NFC replacement or joiner deletion."
+    },
+    {
+      "sequence": "ശ്ശു",
+      "codepoints": [
+        "U+0D36",
+        "U+0D4D",
+        "U+0D36",
+        "U+0D41"
+      ],
+      "tier": "conjunct",
+      "unicode_names": [
+        "MALAYALAM LETTER SHA",
+        "MALAYALAM SIGN VIRAMA",
+        "MALAYALAM LETTER SHA",
+        "MALAYALAM VOWEL SIGN U"
+      ],
+      "label_policy": "Exact codepoint sequence; no NFC replacement or joiner deletion."
+    },
+    {
+      "sequence": "സ്സു",
+      "codepoints": [
+        "U+0D38",
+        "U+0D4D",
+        "U+0D38",
+        "U+0D41"
+      ],
+      "tier": "conjunct",
+      "unicode_names": [
+        "MALAYALAM LETTER SA",
+        "MALAYALAM SIGN VIRAMA",
+        "MALAYALAM LETTER SA",
+        "MALAYALAM VOWEL SIGN U"
+      ],
+      "label_policy": "Exact codepoint sequence; no NFC replacement or joiner deletion."
+    },
+    {
+      "sequence": "സ്മു",
+      "codepoints": [
+        "U+0D38",
+        "U+0D4D",
+        "U+0D2E",
+        "U+0D41"
+      ],
+      "tier": "conjunct",
+      "unicode_names": [
+        "MALAYALAM LETTER SA",
+        "MALAYALAM SIGN VIRAMA",
+        "MALAYALAM LETTER MA",
+        "MALAYALAM VOWEL SIGN U"
+      ],
+      "label_policy": "Exact codepoint sequence; no NFC replacement or joiner deletion."
+    },
+    {
+      "sequence": "റ്റു",
+      "codepoints": [
+        "U+0D31",
+        "U+0D4D",
+        "U+0D31",
+        "U+0D41"
+      ],
+      "tier": "conjunct",
+      "unicode_names": [
+        "MALAYALAM LETTER RRA",
+        "MALAYALAM SIGN VIRAMA",
+        "MALAYALAM LETTER RRA",
+        "MALAYALAM VOWEL SIGN U"
+      ],
+      "label_policy": "Exact codepoint sequence; no NFC replacement or joiner deletion."
+    },
+    {
+      "sequence": "ന്റു",
+      "codepoints": [
+        "U+0D28",
+        "U+0D4D",
+        "U+0D31",
+        "U+0D41"
+      ],
+      "tier": "conjunct",
+      "unicode_names": [
+        "MALAYALAM LETTER NA",
+        "MALAYALAM SIGN VIRAMA",
+        "MALAYALAM LETTER RRA",
+        "MALAYALAM VOWEL SIGN U"
+      ],
+      "label_policy": "Exact codepoint sequence; no NFC replacement or joiner deletion."
+    }
+  ],
+  "unique_families": 14,
+  "instances": 28,
+  "split_families": {
+    "train": [
+      "anekmalayalam",
+      "gayathri",
+      "anjalioldlipi",
+      "karumbi",
+      "dyuthi",
+      "rachana",
+      "meera",
+      "malini"
+    ],
+    "validation": [
+      "baloochettan2",
+      "manjari",
+      "uroob"
+    ],
+    "test": [
+      "chilanka",
+      "notosansmalayalam",
+      "notoserifmalayalam"
+    ]
+  },
+  "coverage": [
+    {
+      "instance_id": "anekmalayalam/AnekMalayalam[wdth,wght].ttf/{\"wght\": 200}",
+      "family": "anekmalayalam",
+      "split": "train",
+      "counts": {
+        "ok": 711
+      }
+    },
+    {
+      "instance_id": "anekmalayalam/AnekMalayalam[wdth,wght].ttf/{\"wght\": 500.0}",
+      "family": "anekmalayalam",
+      "split": "train",
+      "counts": {
+        "ok": 709,
+        "outside-canonical-canvas": 2
+      }
+    },
+    {
+      "instance_id": "anekmalayalam/AnekMalayalam[wdth,wght].ttf/{\"wght\": 700}",
+      "family": "anekmalayalam",
+      "split": "train",
+      "counts": {
+        "ok": 707,
+        "outside-canonical-canvas": 4
+      }
+    },
+    {
+      "instance_id": "baloochettan2/BalooChettan2[wght].ttf/{\"wght\": 400.0}",
+      "family": "baloochettan2",
+      "split": "validation",
+      "counts": {
+        "ok": 706,
+        "outside-canonical-canvas": 5
+      }
+    },
+    {
+      "instance_id": "baloochettan2/BalooChettan2[wght].ttf/{\"wght\": 700}",
+      "family": "baloochettan2",
+      "split": "validation",
+      "counts": {
+        "ok": 702,
+        "outside-canonical-canvas": 9
+      }
+    },
+    {
+      "instance_id": "chilanka/Chilanka-Regular.ttf/{}",
+      "family": "chilanka",
+      "split": "test",
+      "counts": {
+        "ok": 710,
+        "outside-canonical-canvas": 1
+      }
+    },
+    {
+      "instance_id": "gayathri/Gayathri-Thin.ttf/{}",
+      "family": "gayathri",
+      "split": "train",
+      "counts": {
+        "ok": 711
+      }
+    },
+    {
+      "instance_id": "gayathri/Gayathri-Regular.ttf/{}",
+      "family": "gayathri",
+      "split": "train",
+      "counts": {
+        "ok": 711
+      }
+    },
+    {
+      "instance_id": "gayathri/Gayathri-Bold.ttf/{}",
+      "family": "gayathri",
+      "split": "train",
+      "counts": {
+        "ok": 711
+      }
+    },
+    {
+      "instance_id": "manjari/Manjari-Thin.ttf/{}",
+      "family": "manjari",
+      "split": "validation",
+      "counts": {
+        "ok": 708,
+        "outside-canonical-canvas": 3
+      }
+    },
+    {
+      "instance_id": "manjari/Manjari-Regular.ttf/{}",
+      "family": "manjari",
+      "split": "validation",
+      "counts": {
+        "ok": 709,
+        "outside-canonical-canvas": 2
+      }
+    },
+    {
+      "instance_id": "manjari/Manjari-Bold.ttf/{}",
+      "family": "manjari",
+      "split": "validation",
+      "counts": {
+        "ok": 705,
+        "outside-canonical-canvas": 6
+      }
+    },
+    {
+      "instance_id": "notosansmalayalam/NotoSansMalayalam[wdth,wght].ttf/{\"wght\": 200}",
+      "family": "notosansmalayalam",
+      "split": "test",
+      "counts": {
+        "ok": 710,
+        "outside-canonical-canvas": 1
+      }
+    },
+    {
+      "instance_id": "notosansmalayalam/NotoSansMalayalam[wdth,wght].ttf/{\"wght\": 400.0}",
+      "family": "notosansmalayalam",
+      "split": "test",
+      "counts": {
+        "ok": 709,
+        "outside-canonical-canvas": 2
+      }
+    },
+    {
+      "instance_id": "notosansmalayalam/NotoSansMalayalam[wdth,wght].ttf/{\"wght\": 700}",
+      "family": "notosansmalayalam",
+      "split": "test",
+      "counts": {
+        "ok": 687,
+        "outside-canonical-canvas": 24
+      }
+    },
+    {
+      "instance_id": "notoserifmalayalam/NotoSerifMalayalam[wght].ttf/{\"wght\": 200}",
+      "family": "notoserifmalayalam",
+      "split": "test",
+      "counts": {
+        "ok": 711
+      }
+    },
+    {
+      "instance_id": "notoserifmalayalam/NotoSerifMalayalam[wght].ttf/{\"wght\": 400.0}",
+      "family": "notoserifmalayalam",
+      "split": "test",
+      "counts": {
+        "ok": 710,
+        "outside-canonical-canvas": 1
+      }
+    },
+    {
+      "instance_id": "notoserifmalayalam/NotoSerifMalayalam[wght].ttf/{\"wght\": 700}",
+      "family": "notoserifmalayalam",
+      "split": "test",
+      "counts": {
+        "ok": 702,
+        "outside-canonical-canvas": 9
+      }
+    },
+    {
+      "instance_id": "anjalioldlipi/AnjaliOldLipi-Regular.ttf/{}",
+      "family": "anjalioldlipi",
+      "split": "train",
+      "counts": {
+        "ok": 705,
+        "outside-canonical-canvas": 6
+      }
+    },
+    {
+      "instance_id": "karumbi/Karumbi.ttf/{}",
+      "family": "karumbi",
+      "split": "train",
+      "counts": {
+        "ok": 711
+      }
+    },
+    {
+      "instance_id": "dyuthi/Dyuthi.ttf/{}",
+      "family": "dyuthi",
+      "split": "train",
+      "counts": {
+        "ok": 711
+      }
+    },
+    {
+      "instance_id": "rachana/Rachana-Bold.ttf/{}",
+      "family": "rachana",
+      "split": "train",
+      "counts": {
+        "ok": 711
+      }
+    },
+    {
+      "instance_id": "rachana/Rachana-Regular.ttf/{}",
+      "family": "rachana",
+      "split": "train",
+      "counts": {
+        "ok": 711
+      }
+    },
+    {
+      "instance_id": "meera/Meera.ttf/{}",
+      "family": "meera",
+      "split": "train",
+      "counts": {
+        "ok": 711
+      }
+    },
+    {
+      "instance_id": "uroob/Uroob.ttf/{}",
+      "family": "uroob",
+      "split": "validation",
+      "counts": {
+        "ok": 710,
+        "empty": 1
+      }
+    },
+    {
+      "instance_id": "malini/Malini-VF.ttf/{\"wght\": 200}",
+      "family": "malini",
+      "split": "train",
+      "counts": {
+        "ok": 706,
+        "outside-canonical-canvas": 5
+      }
+    },
+    {
+      "instance_id": "malini/Malini-VF.ttf/{\"wght\": 400.0}",
+      "family": "malini",
+      "split": "train",
+      "counts": {
+        "ok": 706,
+        "outside-canonical-canvas": 5
+      }
+    },
+    {
+      "instance_id": "malini/Malini-VF.ttf/{\"wght\": 700}",
+      "family": "malini",
+      "split": "train",
+      "counts": {
+        "ok": 706,
+        "outside-canonical-canvas": 5
+      }
+    }
+  ],
+  "manifest_sha256": "950b8b0962fc1db2deb432ba7a627b24000989d1d88c284d71d7b9b93d14d9f1",
+  "canvas": {
+    "height": 64,
+    "width": 96,
+    "em": 32,
+    "baseline_y": 45,
+    "horizontal_alignment": "ink-centered with recorded translation",
+    "vertical_alignment": "fixed font baseline, no per-glyph fit"
+  },
+  "render_seconds": 24.21880845807027,
+  "shaping_note": "HarfBuzz ml/Mlym ltr; exact Unicode clusters recorded. mlm2/mlym tags are shaper versions, not orthography labels. Missing cmap, glyph 0, empty and clipped forms are excluded and counted."
+}

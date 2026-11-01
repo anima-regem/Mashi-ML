@@ -1,0 +1,25 @@
+{
+  "platform": "macOS-27.2-arm64-arm-64bit",
+  "machine": "arm64",
+  "python": "3.11.17",
+  "cpu": "Apple M1 Pro",
+  "ram_bytes": 17179869184,
+  "cpu_cores": 8,
+  "accelerator": "MPS-capable hardware; CPU-only NumPy campaign chosen for small independent-family corpus",
+  "harfbuzz": "12.3.2",
+  "freetype": [
+    2,
+    13,
+    2
+  ],
+  "max_blas_threads": 2,
+  "free_disk_initial_gib": 25,
+  "resource_budget": {
+    "wall_minutes": 45,
+    "peak_training_rss_gib": 2,
+    "disk_gib": 4,
+    "paid_services": false
+  },
+  "memory_available_before_training_bytes": 3836706816,
+  "note": "Machine in active use; at most two BLAS threads, sequential training, bounded grids."
+}

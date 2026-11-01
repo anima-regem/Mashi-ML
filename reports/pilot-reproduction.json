@@ -1,0 +1,14 @@
+{
+  "reproduced_on": "2026-11-01",
+  "checkpoint_sha256": "907d342bf899ec7a6a5af1537366a64f17fec8897c592260b968986ad478c49b",
+  "test_font_sha256": "312e0e7c3cc15fa09eb42a8f749eeb246b593ed420e3c81aafe8d910c3a6fb56",
+  "labels": 55,
+  "observations": 10,
+  "targets": 45,
+  "metrics": {
+    "predicted_iou": 0.7039764307137204,
+    "mean_baseline_iou": 0.6905133834463016
+  },
+  "matches_handoff": true,
+  "environment": "Read-only execution of the original application task environment with Python bytecode writes disabled; no app files changed."
+}

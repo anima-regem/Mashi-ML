@@ -1,0 +1,116 @@
+[
+  {
+    "file": "reports/figures/chilanka-fixed.png",
+    "selection": "first and middle missing sequence per tier, deterministic",
+    "instance_id": "chilanka/Chilanka-Regular.ttf/{}",
+    "sequences": [
+      "അ",
+      "ന",
+      "കാ",
+      "ധി",
+      "ക്",
+      "ധ്",
+      "ക്ക",
+      "ന്ദാ",
+      "ണ്‍",
+      "ര്‍",
+      "ണ്‌",
+      "ര്‌"
+    ]
+  },
+  {
+    "file": "reports/figures/chilanka-worst.png",
+    "selection": "lowest selected IoU with fixed 10 references",
+    "instance_id": "chilanka/Chilanka-Regular.ttf/{}",
+    "sequences": [
+      "ണൃ",
+      "റൃ",
+      "സ്നു",
+      "ഝൃ",
+      "സ്തു",
+      "ഗ്ഗു",
+      "പ്തു",
+      "റൌ",
+      "ഘൂ",
+      "രൃ",
+      "ഘു",
+      "പ്താ"
+    ]
+  },
+  {
+    "file": "reports/figures/notosansmalayalam-fixed.png",
+    "selection": "first and middle missing sequence per tier, deterministic",
+    "instance_id": "notosansmalayalam/NotoSansMalayalam[wdth,wght].ttf/{\"wght\": 400.0}",
+    "sequences": [
+      "അ",
+      "ന",
+      "കാ",
+      "ധീ",
+      "ക്",
+      "ധ്",
+      "ക്ക",
+      "ന്ദാ",
+      "ണ്‍",
+      "ര്‍",
+      "ണ്‌",
+      "ര്‌"
+    ]
+  },
+  {
+    "file": "reports/figures/notosansmalayalam-worst.png",
+    "selection": "lowest selected IoU with fixed 10 references",
+    "instance_id": "notosansmalayalam/NotoSansMalayalam[wdth,wght].ttf/{\"wght\": 400.0}",
+    "sequences": [
+      "ല്പു",
+      "ജ്ഞു",
+      "ബ്ധ",
+      "ല്പാ",
+      "പ്ത",
+      "ജ്ജു",
+      "ച്ച്യു",
+      "പ്തു",
+      "സ്തു",
+      "ല്പ",
+      "ഡൂ",
+      "ജ്ജാ"
+    ]
+  },
+  {
+    "file": "reports/figures/notoserifmalayalam-fixed.png",
+    "selection": "first and middle missing sequence per tier, deterministic",
+    "instance_id": "notoserifmalayalam/NotoSerifMalayalam[wght].ttf/{\"wght\": 400.0}",
+    "sequences": [
+      "അ",
+      "ന",
+      "കാ",
+      "ധീ",
+      "ക്",
+      "ധ്",
+      "ക്ക",
+      "ന്ദാ",
+      "ണ്‍",
+      "ര്‍",
+      "ണ്‌",
+      "ര്‌"
+    ]
+  },
+  {
+    "file": "reports/figures/notoserifmalayalam-worst.png",
+    "selection": "lowest selected IoU with fixed 10 references",
+    "instance_id": "notoserifmalayalam/NotoSerifMalayalam[wght].ttf/{\"wght\": 400.0}",
+    "sequences": [
+      "ല്പു",
+      "പ്ത",
+      "സ്തു",
+      "ഗു",
+      "ബ്ധ",
+      "ജ്ഞു",
+      "ഗൂ",
+      "ഡു",
+      "ധു",
+      "റു",
+      "ഡൂ",
+      "ച്ച്യു"
+    ]
+  }
+]

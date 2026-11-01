@@ -1,0 +1,87 @@
+{
+  "status": "FROZEN BEFORE TEST",
+  "selected": {
+    "id": "augmented-r8-l0.0001-b1",
+    "training": "augmented",
+    "config": {
+      "method": "pca",
+      "rank": 8,
+      "ridge": 0.0001,
+      "band": true,
+      "blend": 1.0
+    },
+    "validation_regular": {
+      "macro": {
+        "iou": 0.4055943777819015,
+        "sdf_mae": 0.06284859955862716
+      },
+      "by_family": {
+        "baloochettan2": {
+          "iou": 0.4349480641787767,
+          "sdf_mae": 0.05615422957473331
+        },
+        "manjari": {
+          "iou": 0.5184908219149943,
+          "sdf_mae": 0.04252644835246934
+        },
+        "uroob": {
+          "iou": 0.2633442472519334,
+          "sdf_mae": 0.08986512074867885
+        }
+      },
+      "by_reference_count_iou": {
+        "5": 0.39511698755430835,
+        "10": 0.4069335472111159,
+        "20": 0.41473259858028005
+      },
+      "episodes": 27,
+      "target_predictions": 18440
+    }
+  },
+  "checkpoint_sha256": "0165690674d47818bd66055cf66f7b8861bdbb557f964bea56154b33180ea045",
+  "selection_metric": "Mean IoU macro over validation families, Regular only; average 5/10/20 references x 3 fixed reference permutations; no test scores read.",
+  "candidate_count": 48,
+  "training_wall_seconds_including_validation": 78.19988716591615,
+  "max_rss_bytes": 1859125248,
+  "model_metadata": {
+    "architecture": "family-weighted joint-sequence SDF PCA with regularized style inference",
+    "training_families": [
+      "anekmalayalam",
+      "anjalioldlipi",
+      "dyuthi",
+      "gayathri",
+      "karumbi",
+      "malini",
+      "meera",
+      "rachana"
+    ],
+    "training_instances": 15,
+    "fitted_instances_including_synthetic": 30,
+    "max_rank": 12,
+    "augmentation": true,
+    "explained_variance_ratio": [
+      0.4398784637451172,
+      0.23093979060649872,
+      0.09394217282533646,
+      0.051648616790771484,
+      0.04812221974134445,
+      0.03666196018457413,
+      0.02906275913119316,
+      0.018255172297358513,
+      0.014769885689020157,
+      0.009743042290210724,
+      0.007609635125845671,
+      0.00461453665047884
+    ],
+    "fit_seconds": 4.971229832968675,
+    "inference_config": {
+      "method": "pca",
+      "rank": 8,
+      "ridge": 0.0001,
+      "band": true,
+      "blend": 1.0
+    }
+  },
+  "test_protocol": "Evaluate selected model, fixed first trained model and four baselines once, all held-out test weights. No post-test tuning. Report all families including failures.",
+  "corpus_lock_sha256": "950b8b0962fc1db2deb432ba7a627b24000989d1d88c284d71d7b9b93d14d9f1"
+}

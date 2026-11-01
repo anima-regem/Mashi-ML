@@ -1,0 +1,21 @@
+{
+  "checked_utc": "2026-11-01T12:05:50.349136+00:00",
+  "checks": [
+    "All indexed local artifact sizes and SHA256 hashes match",
+    "Test report binds to frozen selection and selected checkpoint",
+    "Complete compressed evaluations have finite bounded overlap and consistent target denominators",
+    "20 synthetic end-to-end suggestions preserve input hashes and generated provenance; no observed target overwritten"
+  ],
+  "unit_tests": {
+    "passed": 6,
+    "command": "PYTHONPATH=src python -m unittest discover -s tests -v"
+  },
+  "qualitative_review": [
+    "Viewed Chilanka fixed-tier grid",
+    "Viewed Noto Sans worst-target grid",
+    "Fragmented contours/lost ink visible and documented"
+  ],
+  "pilot_reproduction": true,
+  "github_ci": "Prepared workflow; not run because public repository creation is pending explicit publication approval",
+  "app_workspace_modified": false
+}

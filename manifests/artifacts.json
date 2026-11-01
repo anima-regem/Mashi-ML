@@ -1,0 +1,61 @@
+[
+  {
+    "path": "artifacts/augmented-full.npz",
+    "bytes": 61793154,
+    "sha256": "da945cc2d8f72f86c18326c092f1336ba725fb8771a66ac64f5de7e228655b77",
+    "distribution": "local only; excluded from Git",
+    "licence": "No unrestricted redistribution licence asserted; source notices retained"
+  },
+  {
+    "path": "artifacts/best-validation.npz",
+    "bytes": 61793153,
+    "sha256": "0165690674d47818bd66055cf66f7b8861bdbb557f964bea56154b33180ea045",
+    "distribution": "local only; excluded from Git",
+    "licence": "No unrestricted redistribution licence asserted; source notices retained"
+  },
+  {
+    "path": "artifacts/clean-full.npz",
+    "bytes": 55255282,
+    "sha256": "930441a6a36d81210be55a831cfe8284bfffcd1afc9fc266428897104dab5085",
+    "distribution": "local only; excluded from Git",
+    "licence": "No unrestricted redistribution licence asserted; source notices retained"
+  },
+  {
+    "path": "artifacts/first-trained.npz",
+    "bytes": 55255282,
+    "sha256": "930441a6a36d81210be55a831cfe8284bfffcd1afc9fc266428897104dab5085",
+    "distribution": "local only; excluded from Git",
+    "licence": "No unrestricted redistribution licence asserted; source notices retained"
+  },
+  {
+    "path": "artifacts/pilot-model.npz",
+    "bytes": 740613,
+    "sha256": "907d342bf899ec7a6a5af1537366a64f17fec8897c592260b968986ad478c49b",
+    "distribution": "local only; excluded from Git",
+    "licence": "No unrestricted redistribution licence asserted; source notices retained"
+  },
+  {
+    "path": "data/rendered/corpus.npz",
+    "bytes": 2212277,
+    "sha256": "5fbcdbd3b93e52c7709c21604dbd8c1dbc5c1938e1d57ed8613dfcc41dde047d",
+    "distribution": "source metadata in Git; rendered corpus local only"
+  },
+  {
+    "path": "data/rendered/shaping.jsonl.gz",
+    "bytes": 1221968,
+    "sha256": "ca9c9361d8998f0c43b85ba1ecc5a8f59e72cd28724debc40778327ac90a6293",
+    "distribution": "source metadata in Git; rendered corpus local only"
+  },
+  {
+    "path": "manifests/corpus.lock.json",
+    "bytes": 51133,
+    "sha256": "950b8b0962fc1db2deb432ba7a627b24000989d1d88c284d71d7b9b93d14d9f1",
+    "distribution": "source metadata in Git; rendered corpus local only"
+  },
+  {
+    "path": "requirements.lock",
+    "bytes": 340,
+    "sha256": "8c27aefc707c30e7c1cbb24ccf1fd1aa4915a798a68d63ac3a0cb13186a0e0d4",
+    "distribution": "source metadata in Git; rendered corpus local only"
+  }
+]

@@ -1,0 +1,12 @@
+# Narrow post-campaign fixes — no retraining
+
+The original model checkpoints, corpus config/lock, dataset tensors and measured experiment reports are preserved unchanged. No corpus-model retraining, test-driven hyperparameter choice or weight publication was performed. The unit suite retains a tiny synthetic fit fixture for algorithm correctness. `reproducibility-fix.json` records actual artifact and inference checks.
+
+* PCA now reads only its learned arrays and supplied observations unless template diagnostics are explicitly requested. Template baselines remain available in original format-2 models.
+* The format-3 `pca-inference-v1` export contains labels/mean/basis/inference configuration and capability flags, with no template arrays or template IDs. Its metadata excludes run timings. Export refuses overwrites and retains a separate source-checksum record. This does not resolve learned-array redistribution rights.
+* A real local export was checked against both the original published inference implementation and the updated full model: all 698 predicted fields were bit-identical for the same 10-reference fixture (maximum absolute difference 0). The original checkpoint SHA256 is unchanged. Capability/error behavior and deterministic export from identical arrays are covered by regression tests.
+* Replay now verifies exact config↔lock↔review bindings, schemas, membership/order, per-asset identities/hashes, explicit research decisions and actual notice evidence. Rendering uses the same gate. Unknown/new members cannot fall through an absent expected hash.
+* New acquisition locks are pending, never automatically cleared by an OFL heading. RFN names stay unknown until reviewed. The 14 current-corpus decisions explicitly cover 54 pinned assets and document OFL alternatives in dual-licensed notices. This is distinct from unresolved model/export questions.
+* Whole corpus: 14 families / 28 instances. Actual training: 8 families / 6 groups / 15 real instances (30 augmented); validation: 3 / 3 / 6; test: 3 families / 2 groups / 7 instances. README wording now makes that distinction.
+
+Exact checksums verify published/local artifacts, not cross-platform retraining identity. Original experimental files include `fit_seconds`; new inference-only payloads exclude it. Repeating training may produce numerically equivalent arrays with different byte hashes due to platform/BLAS/library differences. Source/notice hashes remain exact requirements.

@@ -47,3 +47,17 @@ Original engine code is MIT. Font licences are per-source OFL notices (some sour
 The inventory in `manifests/repertoire.json` contains candidates; the actual trained sequence list is stored in the checkpoint, selected using training coverage only. Unknown sequences require a new model/repertoire. Digital-font evaluation cannot establish the quality of actual handwriting completion. This engine is not an observed-handwriting reconstruction service.
 
 Generated-font assembly must apply the OFL output conditions described in the [licence audit](../reports/AUDIT.md). The unresolved checkpoint release question is separate from those documented font-output conditions.
+
+## Checkpoint profiles and capabilities
+
+The original **format 2** checkpoints remain readable and unchanged; they contain mean/basis arrays and training templates. New local **format 3 / `pca-inference-v1`** exports omit both `templates` and `template_ids`. They retain PCA/mean inference and explicitly disable template baselines and nearest-template diagnostics. Removing templates does **not** settle rights in the learned means/bases; no weights are published.
+
+```sh
+PYTHONPATH=src python scripts/export_checkpoint.py \
+  --checkpoint artifacts/best-validation.npz \
+  --output artifacts/inference-only-v3.npz
+```
+
+Export refuses to overwrite any checkpoint. Keep the printed source/export checksum record separately with corpus/licence provenance. The exported payload excludes `fit_seconds` and other run metadata; the original experimental checkpoint still includes them. Artifact checksums verify exact files. Retraining should be checked for numerical equivalence under a stated tolerance; identical hashes are not promised across BLAS/platform/library differences. Exports from identical arrays/configuration have identical payload hashes even when run timings differ.
+
+Request/result schema remains `v1`. The request must approve the **new export's checksum**. Results now include `model_capabilities`; diagnostics carry the same flags. UI actions must use those flags rather than assume retrieval is available. `nearest_training_template` is optional: PCA no longer reads templates by default. An original full model may request it explicitly with `include_template_diagnostics=True`; a template-free model rejects that request or any template baseline with a clear capability error. Existing PCA numeric predictions are unchanged.

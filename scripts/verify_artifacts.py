@@ -51,7 +51,7 @@ def main():
         assert sha(ROOT / "artifacts/demo/suggestions" / item["raster"]) == item["raster_sha256"]
     checks.append("20 synthetic end-to-end suggestions preserve input hashes and generated provenance; no observed target overwritten")
     report = {"checked_utc": datetime.now(timezone.utc).isoformat(), "checks": checks,
-              "unit_tests": {"passed": 6, "command": "PYTHONPATH=src python -m unittest discover -s tests -v"},
+              "unit_tests": {"command": "PYTHONPATH=src python -m unittest discover -s tests -v", "note": "Run separately or inspect CI; this artifact verifier does not execute the unit suite"},
               "qualitative_review": ["Viewed Chilanka fixed-tier grid", "Viewed Noto Sans worst-target grid", "Fragmented contours/lost ink visible and documented"],
               "pilot_reproduction": json.loads((ROOT / "reports/pilot-reproduction.json").read_text())["matches_handoff"],
               "github_ci": "Workflow prepared; exact remote commit/run status is verified separately during publication", "app_workspace_modified": False}

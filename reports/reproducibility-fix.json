@@ -1,0 +1,37 @@
+{
+  "scope": "No corpus-model retraining or test-driven selection. Local-only export and inference equivalence check; unit tests retain a tiny synthetic fit fixture.",
+  "original_checkpoint_sha256": "0165690674d47818bd66055cf66f7b8861bdbb557f964bea56154b33180ea045",
+  "original_indexed_artifacts_unchanged": true,
+  "inference_export": {
+    "path": "artifacts/inference-only-v3.npz",
+    "sha256": "b5975fc1e9923e2ef460ebe2084c2c12e485008ddae17d5914ac06e2c7226d95",
+    "bytes": 57130398,
+    "members": [
+      "format_version",
+      "labels",
+      "mean",
+      "basis",
+      "metadata"
+    ],
+    "capabilities": {
+      "pca_inference": true,
+      "mean_inference": true,
+      "template_baselines": false,
+      "nearest_template_diagnostic": false
+    },
+    "distribution": "local only; removal of templates does not resolve learned mean/basis rights"
+  },
+  "predictions_bit_identical_original_code_vs_lazy_diagnostics_vs_inference_profile": true,
+  "comparison": {
+    "observations": 10,
+    "supported_sequences_compared": 698,
+    "max_absolute_difference": 0.0,
+    "profile_template_diagnostics_included": false
+  },
+  "current_corpus_review": {
+    "decisions": 14,
+    "asset_identities": 54,
+    "scope": "explicit local-rendering/research only; RFNs not assessed for export"
+  },
+  "unit_tests_passed": 22
+}

@@ -1,4 +1,5 @@
 .venv/
+artifacts/
 .uv-cache/
 __pycache__/
 *.pyc

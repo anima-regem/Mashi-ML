@@ -2,7 +2,7 @@
 
 Local missing-Malayalam-sequence appearance research for [Mashi, the open-source handwriting-to-font studio](https://github.com/anima-regem/Mashi). The photo/CV engine supplies confirmed observed samples; this engine proposes missing appearances. Shared font shaping/assembly stays separate.
 
-**Actual Mac training completed:** 14 licensed families, 28 weight instances, 711 candidate / 698 trained exact sequences; clean and augmented PCA fits with 48 validation settings. Held-out IoU improved **0.3137 → 0.3862**, while nearest-font retrieval scored **0.4070**. The learned model remains a research result. No real handwriting generalization is claimed.
+**Actual Mac training completed:** whole corpus **14 licensed families / 28 weight instances**, 711 candidate / 698 trained exact sequences. Training used **8 families / 6 lineages / 15 real instances** (30 with augmentation); validation **3 / 3 / 6**; test **3 families / 2 lineages / 7 instances**. Clean and augmented PCA fits were compared across 48 validation settings. Held-out IoU improved **0.3137 → 0.3862**, while nearest-font retrieval scored **0.4070**. The learned model remains a research result. No real handwriting generalization is claimed.
 
 * [Measured campaign and failure cases](reports/CAMPAIGN.md)
 * [Model card](MODEL_CARD.md)
@@ -28,7 +28,7 @@ PYTHONPATH=src:scripts .venv/bin/python scripts/qualitative.py
 .venv/bin/python scripts/summarize.py
 ```
 
-Only acquisition needs network access. Training/evaluation/inference run offline. The original source lock is committed: normal acquisition verifies hashes; `--create-lock` is for an intentional new audited corpus, not routine replay. Expect below 2 GiB peak training RSS in this campaign and under 1 GiB task artifacts including duplicate checkpoint conditions. Keep at least several GiB free for reproduction. No paid services, credentials or personal files are needed.
+Only acquisition needs network access. Training/evaluation/inference run offline. The original source lock is immutable: replay requires the exact config/lock hashes and explicit per-asset decisions in `manifests/source-review.json`. New `--create-lock --output-lock <new-file>` acquisition is PENDING until reviewed, never automatic licence/RFN approval. See [acquisition review](docs/ACQUISITION_REVIEW.md). Expect below 2 GiB peak training RSS in this campaign and under 1 GiB task artifacts including duplicate checkpoint conditions. Keep at least several GiB free for reproduction. No paid services, credentials or personal files are needed.
 
 The local selected checkpoint is **61,793,153 bytes**, SHA256 `0165690674d47818bd66055cf66f7b8861bdbb557f964bea56154b33180ea045`. Font binaries, raster corpus and weights stay outside Git; no weight redistribution licence is presumed from OFL. Reproduction generates the checkpoint locally. Original source code is MIT; the complete font notices and model licensing caveats remain separate.
 

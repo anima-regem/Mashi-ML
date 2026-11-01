@@ -63,6 +63,7 @@ def predict(checkpoint, request_path, output):
                             "not_observed_in_photo": True, "uncertainty": "uncalibrated", "empty_prediction": not bool(mask.any()),
                             "requires_human_review": True, "source_observation_ids": [s["id"] for s in source_records]})
     result = {"schema": "mashi-completion-result/v1", "project": request.get("project"), "checkpoint_sha256": digest,
+              "model_capabilities": model.capabilities,
               "request_sha256": sha256(request_path), "observations": source_records, "diagnostics": diagnostics,
               "normalization": {"width": WIDTH, "height": HEIGHT, "em_pixels": EM, "baseline_y": BASELINE, "ink": "black"},
               "suggestions": suggestions, "status": "generated-research-suggestions-awaiting-review",

@@ -11,6 +11,7 @@ from fontTools.ttLib import TTFont
 
 from mashi_ml.rendering import Renderer, HEIGHT, WIDTH, EM, BASELINE
 from mashi_ml.repertoire import inventory
+from mashi_ml.acquisition import load_approved_corpus
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -18,7 +19,7 @@ ROOT = Path(__file__).resolve().parents[1]
 def main():
     started = time.perf_counter()
     lock_bytes = (ROOT / "manifests/corpus.lock.json").read_bytes()
-    rows = json.loads(lock_bytes)["fonts"]
+    rows = load_approved_corpus(ROOT)["fonts"]
     groups = {}
     for r in rows:
         if r["lineage_group"] in groups and groups[r["lineage_group"]] != r["split"]:
@@ -74,7 +75,7 @@ def main():
     (ROOT / "manifests/instances.json").write_text(json.dumps(instances, indent=2) + "\n")
     summary = {"candidate_sequences": len(repertoire), "train_supported_sequences": int(supported.sum()), "supported_by_tier": dict(Counter(r["tier"] for j, r in enumerate(repertoire) if supported[j])),
                "train_excluded_sequences": [r for j, r in enumerate(repertoire) if not supported[j]], "unique_families": len(rows), "instances": len(instances), "split_families": {s: [r["family"] for r in rows if r["split"] == s] for s in ["train", "validation", "test"]}, "coverage": coverage,
-               "manifest_sha256": hashlib.sha256(lock_bytes).hexdigest(), "canvas": {"height": HEIGHT, "width": WIDTH, "em": EM, "baseline_y": BASELINE, "horizontal_alignment": "ink-centered with recorded translation", "vertical_alignment": "fixed font baseline, no per-glyph fit"}, "render_seconds": time.perf_counter() - started,
+               "manifest_sha256": hashlib.sha256(lock_bytes).hexdigest(), "source_review_sha256": hashlib.sha256((ROOT / "manifests/source-review.json").read_bytes()).hexdigest(), "canvas": {"height": HEIGHT, "width": WIDTH, "em": EM, "baseline_y": BASELINE, "horizontal_alignment": "ink-centered with recorded translation", "vertical_alignment": "fixed font baseline, no per-glyph fit"}, "render_seconds": time.perf_counter() - started,
                "shaping_note": "HarfBuzz ml/Mlym ltr; exact Unicode clusters recorded. mlm2/mlym tags are shaper versions, not orthography labels. Missing cmap, glyph 0, empty and clipped forms are excluded and counted."}
     (ROOT / "reports/corpus.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2) + "\n")
     print(json.dumps({k: summary[k] for k in ["unique_families", "instances", "candidate_sequences", "train_supported_sequences", "supported_by_tier", "render_seconds"]}), flush=True)

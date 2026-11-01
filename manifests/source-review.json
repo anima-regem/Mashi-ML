@@ -1,0 +1,943 @@
+{
+  "schema": 1,
+  "source_config_schema": 1,
+  "lock_schema": 1,
+  "source_config_sha256": "4cc0326ccf644a5a662eb0a00a9f861902e85bec1466ddf063ad2a4566badbe4",
+  "lock_sha256": "950b8b0962fc1db2deb432ba7a627b24000989d1d88c284d71d7b9b93d14d9f1",
+  "scope": "Explicit current-corpus, per-asset local-rendering/research review. New identities/hashes require new decisions. No weight-release or derivative-font/RFN clearance.",
+  "legacy_annotations": "Historical license_selected, approved_usage and reserved_font_names_review fields in schema-1 corpus.lock.json were automatically generated. They are not authorization; decisions in this hash-bound sidecar are authoritative for replay. Raw notices remain unchanged.",
+  "decisions": [
+    {
+      "id": "current-corpus-ofl-research-anekmalayalam",
+      "status": "approved-for-local-research",
+      "selected_license": "OFL-1.1",
+      "local_rendering_and_research": true,
+      "reviewed_on": "2026-11-01",
+      "notice_evidence": {
+        "source_path": "ofl/anekmalayalam/OFL.txt",
+        "sha256": "de62be758bba267e653a5f457dfebb4680957e2c343eb3e7de15aff4746bed05",
+        "grant_review": "affirmative-grant-reviewed",
+        "affirmative_grant_excerpt": "This Font Software is licensed under the SIL Open Font License, Version 1.1.",
+        "reviewer": "Codex current-corpus source review (agent review, not legal opinion)"
+      },
+      "selection_rationale": "Affirmative font-software OFL grant reviewed in the exact pinned notice.",
+      "reserved_font_names": {
+        "status": "not-assessed-for-export",
+        "names": null,
+        "note": "This research decision makes no export/RFN clearance finding; review complete notices and font metadata before releasing a derivative font."
+      },
+      "redistribution_review": {
+        "checkpoint": "unresolved; not approved for publication",
+        "font_outputs": "OFL derivative obligations remain; no export clearance granted"
+      }
+    },
+    {
+      "id": "current-corpus-ofl-research-baloochettan2",
+      "status": "approved-for-local-research",
+      "selected_license": "OFL-1.1",
+      "local_rendering_and_research": true,
+      "reviewed_on": "2026-11-01",
+      "notice_evidence": {
+        "source_path": "ofl/baloochettan2/OFL.txt",
+        "sha256": "ad09b05dc8bc678c9daf7c4c5f7ef1f55e5726127f4330b2e98e40b9dffcb860",
+        "grant_review": "affirmative-grant-reviewed",
+        "affirmative_grant_excerpt": "This Font Software is licensed under the SIL Open Font License, Version 1.1.",
+        "reviewer": "Codex current-corpus source review (agent review, not legal opinion)"
+      },
+      "selection_rationale": "Affirmative font-software OFL grant reviewed in the exact pinned notice.",
+      "reserved_font_names": {
+        "status": "not-assessed-for-export",
+        "names": null,
+        "note": "This research decision makes no export/RFN clearance finding; review complete notices and font metadata before releasing a derivative font."
+      },
+      "redistribution_review": {
+        "checkpoint": "unresolved; not approved for publication",
+        "font_outputs": "OFL derivative obligations remain; no export clearance granted"
+      }
+    },
+    {
+      "id": "current-corpus-ofl-research-chilanka",
+      "status": "approved-for-local-research",
+      "selected_license": "OFL-1.1",
+      "local_rendering_and_research": true,
+      "reviewed_on": "2026-11-01",
+      "notice_evidence": {
+        "source_path": "ofl/chilanka/OFL.txt",
+        "sha256": "f7516c3dde20383922ee27750d432cc2b95b4ba275204d374b7305ef95ed2d14",
+        "grant_review": "affirmative-grant-reviewed",
+        "affirmative_grant_excerpt": "This Font Software is licensed under the SIL Open Font License, Version 1.1.",
+        "reviewer": "Codex current-corpus source review (agent review, not legal opinion)"
+      },
+      "selection_rationale": "Affirmative font-software OFL grant reviewed in the exact pinned notice.",
+      "reserved_font_names": {
+        "status": "not-assessed-for-export",
+        "names": null,
+        "note": "This research decision makes no export/RFN clearance finding; review complete notices and font metadata before releasing a derivative font."
+      },
+      "redistribution_review": {
+        "checkpoint": "unresolved; not approved for publication",
+        "font_outputs": "OFL derivative obligations remain; no export clearance granted"
+      }
+    },
+    {
+      "id": "current-corpus-ofl-research-gayathri",
+      "status": "approved-for-local-research",
+      "selected_license": "OFL-1.1",
+      "local_rendering_and_research": true,
+      "reviewed_on": "2026-11-01",
+      "notice_evidence": {
+        "source_path": "ofl/gayathri/OFL.txt",
+        "sha256": "b2cc52a7162f0c8f71924211d040de37b19894f563a0190a75c017e2dc28d08a",
+        "grant_review": "affirmative-grant-reviewed",
+        "affirmative_grant_excerpt": "This Font Software is licensed under the SIL Open Font License, Version 1.1.",
+        "reviewer": "Codex current-corpus source review (agent review, not legal opinion)"
+      },
+      "selection_rationale": "Affirmative font-software OFL grant reviewed in the exact pinned notice.",
+      "reserved_font_names": {
+        "status": "not-assessed-for-export",
+        "names": null,
+        "note": "This research decision makes no export/RFN clearance finding; review complete notices and font metadata before releasing a derivative font."
+      },
+      "redistribution_review": {
+        "checkpoint": "unresolved; not approved for publication",
+        "font_outputs": "OFL derivative obligations remain; no export clearance granted"
+      }
+    },
+    {
+      "id": "current-corpus-ofl-research-manjari",
+      "status": "approved-for-local-research",
+      "selected_license": "OFL-1.1",
+      "local_rendering_and_research": true,
+      "reviewed_on": "2026-11-01",
+      "notice_evidence": {
+        "source_path": "ofl/manjari/OFL.txt",
+        "sha256": "2e144823e28b854ff5e1d41db9a2180fdb1d8e44a71c2ae4fca5c4b2a5adde4c",
+        "grant_review": "affirmative-grant-reviewed",
+        "affirmative_grant_excerpt": "This Font Software is licensed under the SIL Open Font License, Version 1.1.",
+        "reviewer": "Codex current-corpus source review (agent review, not legal opinion)"
+      },
+      "selection_rationale": "Affirmative font-software OFL grant reviewed in the exact pinned notice.",
+      "reserved_font_names": {
+        "status": "not-assessed-for-export",
+        "names": null,
+        "note": "This research decision makes no export/RFN clearance finding; review complete notices and font metadata before releasing a derivative font."
+      },
+      "redistribution_review": {
+        "checkpoint": "unresolved; not approved for publication",
+        "font_outputs": "OFL derivative obligations remain; no export clearance granted"
+      }
+    },
+    {
+      "id": "current-corpus-ofl-research-notosansmalayalam",
+      "status": "approved-for-local-research",
+      "selected_license": "OFL-1.1",
+      "local_rendering_and_research": true,
+      "reviewed_on": "2026-11-01",
+      "notice_evidence": {
+        "source_path": "ofl/notosansmalayalam/OFL.txt",
+        "sha256": "1df18163a0bf60f02131401ba1609df90051f40c4047684dda1c8a2e9586f7f2",
+        "grant_review": "affirmative-grant-reviewed",
+        "affirmative_grant_excerpt": "This Font Software is licensed under the SIL Open Font License, Version 1.1.",
+        "reviewer": "Codex current-corpus source review (agent review, not legal opinion)"
+      },
+      "selection_rationale": "Affirmative font-software OFL grant reviewed in the exact pinned notice.",
+      "reserved_font_names": {
+        "status": "not-assessed-for-export",
+        "names": null,
+        "note": "This research decision makes no export/RFN clearance finding; review complete notices and font metadata before releasing a derivative font."
+      },
+      "redistribution_review": {
+        "checkpoint": "unresolved; not approved for publication",
+        "font_outputs": "OFL derivative obligations remain; no export clearance granted"
+      }
+    },
+    {
+      "id": "current-corpus-ofl-research-notoserifmalayalam",
+      "status": "approved-for-local-research",
+      "selected_license": "OFL-1.1",
+      "local_rendering_and_research": true,
+      "reviewed_on": "2026-11-01",
+      "notice_evidence": {
+        "source_path": "ofl/notoserifmalayalam/OFL.txt",
+        "sha256": "1df18163a0bf60f02131401ba1609df90051f40c4047684dda1c8a2e9586f7f2",
+        "grant_review": "affirmative-grant-reviewed",
+        "affirmative_grant_excerpt": "This Font Software is licensed under the SIL Open Font License, Version 1.1.",
+        "reviewer": "Codex current-corpus source review (agent review, not legal opinion)"
+      },
+      "selection_rationale": "Affirmative font-software OFL grant reviewed in the exact pinned notice.",
+      "reserved_font_names": {
+        "status": "not-assessed-for-export",
+        "names": null,
+        "note": "This research decision makes no export/RFN clearance finding; review complete notices and font metadata before releasing a derivative font."
+      },
+      "redistribution_review": {
+        "checkpoint": "unresolved; not approved for publication",
+        "font_outputs": "OFL derivative obligations remain; no export clearance granted"
+      }
+    },
+    {
+      "id": "current-corpus-ofl-research-anjalioldlipi",
+      "status": "approved-for-local-research",
+      "selected_license": "OFL-1.1",
+      "local_rendering_and_research": true,
+      "reviewed_on": "2026-11-01",
+      "notice_evidence": {
+        "source_path": "LICENSE.txt",
+        "sha256": "b3aac4ebf174f704a70a79e6525d496a6afed169da08afd9de4aeed4823c908c",
+        "grant_review": "affirmative-grant-reviewed",
+        "affirmative_grant_excerpt": "This Font Software is licensed under the SIL Open Font License, Version 1.1.",
+        "reviewer": "Codex current-corpus source review (agent review, not legal opinion)"
+      },
+      "selection_rationale": "Affirmative font-software OFL grant reviewed in the exact pinned notice.",
+      "reserved_font_names": {
+        "status": "not-assessed-for-export",
+        "names": null,
+        "note": "This research decision makes no export/RFN clearance finding; review complete notices and font metadata before releasing a derivative font."
+      },
+      "redistribution_review": {
+        "checkpoint": "unresolved; not approved for publication",
+        "font_outputs": "OFL derivative obligations remain; no export clearance granted"
+      }
+    },
+    {
+      "id": "current-corpus-ofl-research-karumbi",
+      "status": "approved-for-local-research",
+      "selected_license": "OFL-1.1",
+      "local_rendering_and_research": true,
+      "reviewed_on": "2026-11-01",
+      "notice_evidence": {
+        "source_path": "LICENSE.txt",
+        "sha256": "48fe3b4f7d6cee2b51ca9254228edb3128f3e06d04f7743d19400187d18639b5",
+        "grant_review": "affirmative-grant-reviewed",
+        "affirmative_grant_excerpt": "This Font Software is licensed under the SIL Open Font License, Version 1.1.",
+        "reviewer": "Codex current-corpus source review (agent review, not legal opinion)"
+      },
+      "selection_rationale": "Affirmative font-software OFL grant reviewed in the exact pinned notice.",
+      "reserved_font_names": {
+        "status": "not-assessed-for-export",
+        "names": null,
+        "note": "This research decision makes no export/RFN clearance finding; review complete notices and font metadata before releasing a derivative font."
+      },
+      "redistribution_review": {
+        "checkpoint": "unresolved; not approved for publication",
+        "font_outputs": "OFL derivative obligations remain; no export clearance granted"
+      }
+    },
+    {
+      "id": "current-corpus-ofl-research-dyuthi",
+      "status": "approved-for-local-research",
+      "selected_license": "OFL-1.1",
+      "local_rendering_and_research": true,
+      "reviewed_on": "2026-11-01",
+      "notice_evidence": {
+        "source_path": "LICENSE.txt",
+        "sha256": "3c039a91d61ba6b48397d0c1b1af9306686c79cfd0bd0735089b8499955a3e30",
+        "grant_review": "affirmative-grant-reviewed",
+        "affirmative_grant_excerpt": "This program is free software: you can redistribute it and/or modify it under the terms of SIL Open Font License, Version 1.1 or the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version with Font Exception.",
+        "reviewer": "Codex current-corpus source review (agent review, not legal opinion)"
+      },
+      "selection_rationale": "Explicit OFL alternative selected from the retained dual-licence grant; Rachana Bold separately offers OFL.",
+      "reserved_font_names": {
+        "status": "not-assessed-for-export",
+        "names": null,
+        "note": "This research decision makes no export/RFN clearance finding; review complete notices and font metadata before releasing a derivative font."
+      },
+      "redistribution_review": {
+        "checkpoint": "unresolved; not approved for publication",
+        "font_outputs": "OFL derivative obligations remain; no export clearance granted"
+      }
+    },
+    {
+      "id": "current-corpus-ofl-research-rachana",
+      "status": "approved-for-local-research",
+      "selected_license": "OFL-1.1",
+      "local_rendering_and_research": true,
+      "reviewed_on": "2026-11-01",
+      "notice_evidence": {
+        "source_path": "LICENSE.txt",
+        "sha256": "8454343e7d16a7b4ee5ddc594ee67761531a4ca84cb47cf2a8196223b3d568ac",
+        "grant_review": "affirmative-grant-reviewed",
+        "affirmative_grant_excerpt": "This program is free software: you can redistribute it and/or modify it under the terms of SIL Open Font License, Version 1.1 or the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.",
+        "reviewer": "Codex current-corpus source review (agent review, not legal opinion)"
+      },
+      "selection_rationale": "Explicit OFL alternative selected from the retained dual-licence grant; Rachana Bold separately offers OFL.",
+      "reserved_font_names": {
+        "status": "not-assessed-for-export",
+        "names": null,
+        "note": "This research decision makes no export/RFN clearance finding; review complete notices and font metadata before releasing a derivative font."
+      },
+      "redistribution_review": {
+        "checkpoint": "unresolved; not approved for publication",
+        "font_outputs": "OFL derivative obligations remain; no export clearance granted"
+      }
+    },
+    {
+      "id": "current-corpus-ofl-research-meera",
+      "status": "approved-for-local-research",
+      "selected_license": "OFL-1.1",
+      "local_rendering_and_research": true,
+      "reviewed_on": "2026-11-01",
+      "notice_evidence": {
+        "source_path": "LICENSE.txt",
+        "sha256": "6e2243d6c1de055b8e625b6c33a6c29880e56df33b601482d9856562ff9b95a1",
+        "grant_review": "affirmative-grant-reviewed",
+        "affirmative_grant_excerpt": "This program is free software: you can redistribute it and/or modify it under the terms of SIL Open Font License, Version 1.1 or the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.",
+        "reviewer": "Codex current-corpus source review (agent review, not legal opinion)"
+      },
+      "selection_rationale": "Explicit OFL alternative selected from the retained dual-licence grant; Rachana Bold separately offers OFL.",
+      "reserved_font_names": {
+        "status": "not-assessed-for-export",
+        "names": null,
+        "note": "This research decision makes no export/RFN clearance finding; review complete notices and font metadata before releasing a derivative font."
+      },
+      "redistribution_review": {
+        "checkpoint": "unresolved; not approved for publication",
+        "font_outputs": "OFL derivative obligations remain; no export clearance granted"
+      }
+    },
+    {
+      "id": "current-corpus-ofl-research-uroob",
+      "status": "approved-for-local-research",
+      "selected_license": "OFL-1.1",
+      "local_rendering_and_research": true,
+      "reviewed_on": "2026-11-01",
+      "notice_evidence": {
+        "source_path": "LICENSE.txt",
+        "sha256": "1c159bbe7fd3a06208958ee9b4138caa97ea5506ceb3856dffb6fd10952b763b",
+        "grant_review": "affirmative-grant-reviewed",
+        "affirmative_grant_excerpt": "This Font Software is licensed under the SIL Open Font License, Version 1.1.",
+        "reviewer": "Codex current-corpus source review (agent review, not legal opinion)"
+      },
+      "selection_rationale": "Affirmative font-software OFL grant reviewed in the exact pinned notice.",
+      "reserved_font_names": {
+        "status": "not-assessed-for-export",
+        "names": null,
+        "note": "This research decision makes no export/RFN clearance finding; review complete notices and font metadata before releasing a derivative font."
+      },
+      "redistribution_review": {
+        "checkpoint": "unresolved; not approved for publication",
+        "font_outputs": "OFL derivative obligations remain; no export clearance granted"
+      }
+    },
+    {
+      "id": "current-corpus-ofl-research-malini",
+      "status": "approved-for-local-research",
+      "selected_license": "OFL-1.1",
+      "local_rendering_and_research": true,
+      "reviewed_on": "2026-11-01",
+      "notice_evidence": {
+        "source_path": "OFL.txt",
+        "sha256": "3767d366c05981a4206afe9866f94e0f6f30cd0492a0190c1b0359b4845c46dc",
+        "grant_review": "affirmative-grant-reviewed",
+        "affirmative_grant_excerpt": "This Font Software is licensed under the SIL Open Font License, Version 1.1.",
+        "reviewer": "Codex current-corpus source review (agent review, not legal opinion)"
+      },
+      "selection_rationale": "Affirmative font-software OFL grant reviewed in the exact pinned notice.",
+      "reserved_font_names": {
+        "status": "not-assessed-for-export",
+        "names": null,
+        "note": "This research decision makes no export/RFN clearance finding; review complete notices and font metadata before releasing a derivative font."
+      },
+      "redistribution_review": {
+        "checkpoint": "unresolved; not approved for publication",
+        "font_outputs": "OFL derivative obligations remain; no export clearance granted"
+      }
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "anekmalayalam:ofl/anekmalayalam/AnekMalayalam[wdth,wght].ttf",
+      "family": "anekmalayalam",
+      "repository": "google/fonts",
+      "commit": "6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec",
+      "source_path": "ofl/anekmalayalam/AnekMalayalam[wdth,wght].ttf",
+      "sha256": "319ccd3dc61afce2a5f2e5f3ce16f555c1f385390e80d12af7b9d017dd4993fe",
+      "bytes": 668244,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-anekmalayalam"
+    },
+    {
+      "asset_id": "anekmalayalam:ofl/anekmalayalam/OFL.txt",
+      "family": "anekmalayalam",
+      "repository": "google/fonts",
+      "commit": "6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec",
+      "source_path": "ofl/anekmalayalam/OFL.txt",
+      "sha256": "de62be758bba267e653a5f457dfebb4680957e2c343eb3e7de15aff4746bed05",
+      "bytes": 4379,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-anekmalayalam"
+    },
+    {
+      "asset_id": "anekmalayalam:ofl/anekmalayalam/METADATA.pb",
+      "family": "anekmalayalam",
+      "repository": "google/fonts",
+      "commit": "6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec",
+      "source_path": "ofl/anekmalayalam/METADATA.pb",
+      "sha256": "ec77c4072e62355bc1d100acce4ab8a42405f91623dea15d35284dc257debe66",
+      "bytes": 1086,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-anekmalayalam"
+    },
+    {
+      "asset_id": "anekmalayalam:ofl/anekmalayalam/upstream_info.md",
+      "family": "anekmalayalam",
+      "repository": "google/fonts",
+      "commit": "6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec",
+      "source_path": "ofl/anekmalayalam/upstream_info.md",
+      "sha256": "c753787e1b6e990da80f7df0ecfb4820da545a08fdf8270806af47970166e8be",
+      "bytes": 2842,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-anekmalayalam"
+    },
+    {
+      "asset_id": "baloochettan2:ofl/baloochettan2/BalooChettan2[wght].ttf",
+      "family": "baloochettan2",
+      "repository": "google/fonts",
+      "commit": "6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec",
+      "source_path": "ofl/baloochettan2/BalooChettan2[wght].ttf",
+      "sha256": "8f0de4f81b40d314a129c55a3a9e58411868ca9a452edb57537488853f46db86",
+      "bytes": 339860,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-baloochettan2"
+    },
+    {
+      "asset_id": "baloochettan2:ofl/baloochettan2/OFL.txt",
+      "family": "baloochettan2",
+      "repository": "google/fonts",
+      "commit": "6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec",
+      "source_path": "ofl/baloochettan2/OFL.txt",
+      "sha256": "ad09b05dc8bc678c9daf7c4c5f7ef1f55e5726127f4330b2e98e40b9dffcb860",
+      "bytes": 4384,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-baloochettan2"
+    },
+    {
+      "asset_id": "baloochettan2:ofl/baloochettan2/METADATA.pb",
+      "family": "baloochettan2",
+      "repository": "google/fonts",
+      "commit": "6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec",
+      "source_path": "ofl/baloochettan2/METADATA.pb",
+      "sha256": "e06b899f72e9e4d1a62086170e9abd85ed69dcc52f6c72e7c03a29438cbc0dcb",
+      "bytes": 1079,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-baloochettan2"
+    },
+    {
+      "asset_id": "baloochettan2:ofl/baloochettan2/upstream_info.md",
+      "family": "baloochettan2",
+      "repository": "google/fonts",
+      "commit": "6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec",
+      "source_path": "ofl/baloochettan2/upstream_info.md",
+      "sha256": "0090b443edd19a700cadda2574135e2c7f2d54aa8ec806f78dfc2196322a0bac",
+      "bytes": 3134,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-baloochettan2"
+    },
+    {
+      "asset_id": "chilanka:ofl/chilanka/Chilanka-Regular.ttf",
+      "family": "chilanka",
+      "repository": "google/fonts",
+      "commit": "6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec",
+      "source_path": "ofl/chilanka/Chilanka-Regular.ttf",
+      "sha256": "c6ce47d1a8d387310469c8e355351ff2bd4106030c2a45f1cef0c93215075ed7",
+      "bytes": 352832,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-chilanka"
+    },
+    {
+      "asset_id": "chilanka:ofl/chilanka/OFL.txt",
+      "family": "chilanka",
+      "repository": "google/fonts",
+      "commit": "6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec",
+      "source_path": "ofl/chilanka/OFL.txt",
+      "sha256": "f7516c3dde20383922ee27750d432cc2b95b4ba275204d374b7305ef95ed2d14",
+      "bytes": 4389,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-chilanka"
+    },
+    {
+      "asset_id": "chilanka:ofl/chilanka/METADATA.pb",
+      "family": "chilanka",
+      "repository": "google/fonts",
+      "commit": "6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec",
+      "source_path": "ofl/chilanka/METADATA.pb",
+      "sha256": "04ea606d56058daf74b99e154258b0045df7be580b773372d00d1b08539e35c4",
+      "bytes": 781,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-chilanka"
+    },
+    {
+      "asset_id": "chilanka:ofl/chilanka/upstream_info.md",
+      "family": "chilanka",
+      "repository": "google/fonts",
+      "commit": "6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec",
+      "source_path": "ofl/chilanka/upstream_info.md",
+      "sha256": "b8fca54c2357aff64a43de8887b517bd39f0ca5b7e68cca7928c1f1557e6a551",
+      "bytes": 3294,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-chilanka"
+    },
+    {
+      "asset_id": "gayathri:ofl/gayathri/Gayathri-Thin.ttf",
+      "family": "gayathri",
+      "repository": "google/fonts",
+      "commit": "6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec",
+      "source_path": "ofl/gayathri/Gayathri-Thin.ttf",
+      "sha256": "5c60a888ea5c0d1d259a1803fdbe9d7fa5c8ef9edce952482efa9f59dde4519d",
+      "bytes": 163828,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-gayathri"
+    },
+    {
+      "asset_id": "gayathri:ofl/gayathri/Gayathri-Regular.ttf",
+      "family": "gayathri",
+      "repository": "google/fonts",
+      "commit": "6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec",
+      "source_path": "ofl/gayathri/Gayathri-Regular.ttf",
+      "sha256": "c4fab5d994518247f78d96bf212a7d5b36563b60663136765fbaebd33a74d4f9",
+      "bytes": 162884,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-gayathri"
+    },
+    {
+      "asset_id": "gayathri:ofl/gayathri/Gayathri-Bold.ttf",
+      "family": "gayathri",
+      "repository": "google/fonts",
+      "commit": "6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec",
+      "source_path": "ofl/gayathri/Gayathri-Bold.ttf",
+      "sha256": "ad62d4ab2990d5bba9203c205513a8e162a44a03c58269f9a8b138cad9c0d5e3",
+      "bytes": 163828,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-gayathri"
+    },
+    {
+      "asset_id": "gayathri:ofl/gayathri/OFL.txt",
+      "family": "gayathri",
+      "repository": "google/fonts",
+      "commit": "6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec",
+      "source_path": "ofl/gayathri/OFL.txt",
+      "sha256": "b2cc52a7162f0c8f71924211d040de37b19894f563a0190a75c017e2dc28d08a",
+      "bytes": 4386,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-gayathri"
+    },
+    {
+      "asset_id": "gayathri:ofl/gayathri/METADATA.pb",
+      "family": "gayathri",
+      "repository": "google/fonts",
+      "commit": "6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec",
+      "source_path": "ofl/gayathri/METADATA.pb",
+      "sha256": "e31952ee30273ea9f6766871b29ca2d3ad9d35270372544e8535bae1e4772c9e",
+      "bytes": 1132,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-gayathri"
+    },
+    {
+      "asset_id": "gayathri:ofl/gayathri/upstream_info.md",
+      "family": "gayathri",
+      "repository": "google/fonts",
+      "commit": "6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec",
+      "source_path": "ofl/gayathri/upstream_info.md",
+      "sha256": "a424c5d6ab2810813b82f0c84a72283f5577818df70efc33ffa4ea4e867ca03c",
+      "bytes": 5400,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-gayathri"
+    },
+    {
+      "asset_id": "manjari:ofl/manjari/Manjari-Thin.ttf",
+      "family": "manjari",
+      "repository": "google/fonts",
+      "commit": "6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec",
+      "source_path": "ofl/manjari/Manjari-Thin.ttf",
+      "sha256": "0eab2fd482b2b0e6cd469c53d09513a2303ff91c86dc8c1ba42acfc73242bd72",
+      "bytes": 152332,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-manjari"
+    },
+    {
+      "asset_id": "manjari:ofl/manjari/Manjari-Regular.ttf",
+      "family": "manjari",
+      "repository": "google/fonts",
+      "commit": "6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec",
+      "source_path": "ofl/manjari/Manjari-Regular.ttf",
+      "sha256": "16460924696bfea2a2f71b4201d8786867c6413b548ecbd22bc6bfe55be90f95",
+      "bytes": 151056,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-manjari"
+    },
+    {
+      "asset_id": "manjari:ofl/manjari/Manjari-Bold.ttf",
+      "family": "manjari",
+      "repository": "google/fonts",
+      "commit": "6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec",
+      "source_path": "ofl/manjari/Manjari-Bold.ttf",
+      "sha256": "f19fef695b28e5448ae87451dfbab426676cadf4b59340558a157c0071b69d26",
+      "bytes": 151864,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-manjari"
+    },
+    {
+      "asset_id": "manjari:ofl/manjari/OFL.txt",
+      "family": "manjari",
+      "repository": "google/fonts",
+      "commit": "6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec",
+      "source_path": "ofl/manjari/OFL.txt",
+      "sha256": "2e144823e28b854ff5e1d41db9a2180fdb1d8e44a71c2ae4fca5c4b2a5adde4c",
+      "bytes": 4378,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-manjari"
+    },
+    {
+      "asset_id": "manjari:ofl/manjari/METADATA.pb",
+      "family": "manjari",
+      "repository": "google/fonts",
+      "commit": "6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec",
+      "source_path": "ofl/manjari/METADATA.pb",
+      "sha256": "d74e454215a47f514d4998353960798294e4d07605ae7e7b9cc1213ba41f35c4",
+      "bytes": 1435,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-manjari"
+    },
+    {
+      "asset_id": "manjari:ofl/manjari/upstream_info.md",
+      "family": "manjari",
+      "repository": "google/fonts",
+      "commit": "6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec",
+      "source_path": "ofl/manjari/upstream_info.md",
+      "sha256": "26a25a3f721f19a85cd8147d557714d66612c1274f66c9a28daad63c3a8cc93f",
+      "bytes": 6202,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-manjari"
+    },
+    {
+      "asset_id": "notosansmalayalam:ofl/notosansmalayalam/NotoSansMalayalam[wdth,wght].ttf",
+      "family": "notosansmalayalam",
+      "repository": "google/fonts",
+      "commit": "6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec",
+      "source_path": "ofl/notosansmalayalam/NotoSansMalayalam[wdth,wght].ttf",
+      "sha256": "312e0e7c3cc15fa09eb42a8f749eeb246b593ed420e3c81aafe8d910c3a6fb56",
+      "bytes": 504204,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-notosansmalayalam"
+    },
+    {
+      "asset_id": "notosansmalayalam:ofl/notosansmalayalam/OFL.txt",
+      "family": "notosansmalayalam",
+      "repository": "google/fonts",
+      "commit": "6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec",
+      "source_path": "ofl/notosansmalayalam/OFL.txt",
+      "sha256": "1df18163a0bf60f02131401ba1609df90051f40c4047684dda1c8a2e9586f7f2",
+      "bytes": 4385,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-notosansmalayalam"
+    },
+    {
+      "asset_id": "notosansmalayalam:ofl/notosansmalayalam/METADATA.pb",
+      "family": "notosansmalayalam",
+      "repository": "google/fonts",
+      "commit": "6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec",
+      "source_path": "ofl/notosansmalayalam/METADATA.pb",
+      "sha256": "04c0c4f45bfd7eade8ee48dd6dc56586eda3e3514c355fc078cef966bc47cc1d",
+      "bytes": 1420,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-notosansmalayalam"
+    },
+    {
+      "asset_id": "notosansmalayalam:ofl/notosansmalayalam/upstream_info.md",
+      "family": "notosansmalayalam",
+      "repository": "google/fonts",
+      "commit": "6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec",
+      "source_path": "ofl/notosansmalayalam/upstream_info.md",
+      "sha256": "69c96354080099662772a64784b4c46d5112902811970100e506bcc378b11244",
+      "bytes": 685,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-notosansmalayalam"
+    },
+    {
+      "asset_id": "notoserifmalayalam:ofl/notoserifmalayalam/NotoSerifMalayalam[wght].ttf",
+      "family": "notoserifmalayalam",
+      "repository": "google/fonts",
+      "commit": "6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec",
+      "source_path": "ofl/notoserifmalayalam/NotoSerifMalayalam[wght].ttf",
+      "sha256": "eed354cadb35992df6e8b32fdb7edb399989b165f0f25e7a921009683db26e8e",
+      "bytes": 242048,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-notoserifmalayalam"
+    },
+    {
+      "asset_id": "notoserifmalayalam:ofl/notoserifmalayalam/OFL.txt",
+      "family": "notoserifmalayalam",
+      "repository": "google/fonts",
+      "commit": "6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec",
+      "source_path": "ofl/notoserifmalayalam/OFL.txt",
+      "sha256": "1df18163a0bf60f02131401ba1609df90051f40c4047684dda1c8a2e9586f7f2",
+      "bytes": 4385,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-notoserifmalayalam"
+    },
+    {
+      "asset_id": "notoserifmalayalam:ofl/notoserifmalayalam/METADATA.pb",
+      "family": "notoserifmalayalam",
+      "repository": "google/fonts",
+      "commit": "6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec",
+      "source_path": "ofl/notoserifmalayalam/METADATA.pb",
+      "sha256": "3fca3bf0fb5820674912694d72e59d5d6fa90ca1f9bca8b891617ba483fd150c",
+      "bytes": 1351,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-notoserifmalayalam"
+    },
+    {
+      "asset_id": "notoserifmalayalam:ofl/notoserifmalayalam/upstream_info.md",
+      "family": "notoserifmalayalam",
+      "repository": "google/fonts",
+      "commit": "6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec",
+      "source_path": "ofl/notoserifmalayalam/upstream_info.md",
+      "sha256": "cbf4b37c4be023c5ab4dc081e57752239f737a70e6cda6223534b135518b4327",
+      "bytes": 851,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-notoserifmalayalam"
+    },
+    {
+      "asset_id": "anjalioldlipi:ttf/AnjaliOldLipi-Regular.ttf",
+      "family": "anjalioldlipi",
+      "repository": "smc/AnjaliOldLipi",
+      "commit": "924e6bafca7c636869d2d6163f74ac945cff8e1f",
+      "source_path": "ttf/AnjaliOldLipi-Regular.ttf",
+      "sha256": "2b449727f8bf1a7f687216a091494bd42b0d722990016d9e3298fe1372a0b3e2",
+      "bytes": 331100,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-anjalioldlipi"
+    },
+    {
+      "asset_id": "anjalioldlipi:LICENSE.txt",
+      "family": "anjalioldlipi",
+      "repository": "smc/AnjaliOldLipi",
+      "commit": "924e6bafca7c636869d2d6163f74ac945cff8e1f",
+      "source_path": "LICENSE.txt",
+      "sha256": "b3aac4ebf174f704a70a79e6525d496a6afed169da08afd9de4aeed4823c908c",
+      "bytes": 4609,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-anjalioldlipi"
+    },
+    {
+      "asset_id": "anjalioldlipi:README.md",
+      "family": "anjalioldlipi",
+      "repository": "smc/AnjaliOldLipi",
+      "commit": "924e6bafca7c636869d2d6163f74ac945cff8e1f",
+      "source_path": "README.md",
+      "sha256": "74025d3dc46e99b7626067958683b26346faea829f9216639655cbd44f9c987d",
+      "bytes": 874,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-anjalioldlipi"
+    },
+    {
+      "asset_id": "karumbi:ttf/Karumbi.ttf",
+      "family": "karumbi",
+      "repository": "smc/Karumbi",
+      "commit": "3fd416e6aa0f55a1db00d2c973f04943a398e67f",
+      "source_path": "ttf/Karumbi.ttf",
+      "sha256": "f7f0933f010c599bd13ee3249dfce471377aadd10a91e5489a97dafd9d187e0d",
+      "bytes": 475372,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-karumbi"
+    },
+    {
+      "asset_id": "karumbi:LICENSE.txt",
+      "family": "karumbi",
+      "repository": "smc/Karumbi",
+      "commit": "3fd416e6aa0f55a1db00d2c973f04943a398e67f",
+      "source_path": "LICENSE.txt",
+      "sha256": "48fe3b4f7d6cee2b51ca9254228edb3128f3e06d04f7743d19400187d18639b5",
+      "bytes": 4500,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-karumbi"
+    },
+    {
+      "asset_id": "karumbi:README.md",
+      "family": "karumbi",
+      "repository": "smc/Karumbi",
+      "commit": "3fd416e6aa0f55a1db00d2c973f04943a398e67f",
+      "source_path": "README.md",
+      "sha256": "84920d7a20f041e9e4d77e63de1041a4c1d5407ad12f8a45339f58782e048ad4",
+      "bytes": 883,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-karumbi"
+    },
+    {
+      "asset_id": "dyuthi:ttf/Dyuthi.ttf",
+      "family": "dyuthi",
+      "repository": "smc/Dyuthi",
+      "commit": "2484364a8813a06098f4e6db552d48d2f4f5da29",
+      "source_path": "ttf/Dyuthi.ttf",
+      "sha256": "9ae2b8bf5a873eb8fc8a37f98bd340c2b3b7375f743a1bd736a3295a0688dd50",
+      "bytes": 233124,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-dyuthi"
+    },
+    {
+      "asset_id": "dyuthi:LICENSE.txt",
+      "family": "dyuthi",
+      "repository": "smc/Dyuthi",
+      "commit": "2484364a8813a06098f4e6db552d48d2f4f5da29",
+      "source_path": "LICENSE.txt",
+      "sha256": "3c039a91d61ba6b48397d0c1b1af9306686c79cfd0bd0735089b8499955a3e30",
+      "bytes": 40752,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-dyuthi"
+    },
+    {
+      "asset_id": "dyuthi:README.md",
+      "family": "dyuthi",
+      "repository": "smc/Dyuthi",
+      "commit": "2484364a8813a06098f4e6db552d48d2f4f5da29",
+      "source_path": "README.md",
+      "sha256": "752803160361fefedb35df0b3eb742bd89bfb607f42d05814edbed87fbbcd235",
+      "bytes": 1012,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-dyuthi"
+    },
+    {
+      "asset_id": "rachana:ttf/Rachana-Bold.ttf",
+      "family": "rachana",
+      "repository": "smc/Rachana",
+      "commit": "1eb2feae74a9245afc16e43799be8c8e9a98e609",
+      "source_path": "ttf/Rachana-Bold.ttf",
+      "sha256": "b4ec5fae2950825a6f807afdd05edf3dd4aaf6519e4641e21c8567cbf1ede7b8",
+      "bytes": 320040,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-rachana"
+    },
+    {
+      "asset_id": "rachana:ttf/Rachana-Regular.ttf",
+      "family": "rachana",
+      "repository": "smc/Rachana",
+      "commit": "1eb2feae74a9245afc16e43799be8c8e9a98e609",
+      "source_path": "ttf/Rachana-Regular.ttf",
+      "sha256": "b20cde573e9a5cba55492915156f715bd75cff9897fd50d220fbc8d52256e90b",
+      "bytes": 296904,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-rachana"
+    },
+    {
+      "asset_id": "rachana:LICENSE.txt",
+      "family": "rachana",
+      "repository": "smc/Rachana",
+      "commit": "1eb2feae74a9245afc16e43799be8c8e9a98e609",
+      "source_path": "LICENSE.txt",
+      "sha256": "8454343e7d16a7b4ee5ddc594ee67761531a4ca84cb47cf2a8196223b3d568ac",
+      "bytes": 41926,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-rachana"
+    },
+    {
+      "asset_id": "rachana:README.md",
+      "family": "rachana",
+      "repository": "smc/Rachana",
+      "commit": "1eb2feae74a9245afc16e43799be8c8e9a98e609",
+      "source_path": "README.md",
+      "sha256": "eaa0e0c77da270ebb541c05c3ca7db182f146a5a34d549e4a345fcf1a43c8566",
+      "bytes": 4566,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-rachana"
+    },
+    {
+      "asset_id": "meera:ttf/Meera.ttf",
+      "family": "meera",
+      "repository": "smc/Meera",
+      "commit": "aebe37081332d93e02a83a8649120401967fc379",
+      "source_path": "ttf/Meera.ttf",
+      "sha256": "2ed5284289a42168dfac3227dc3d6c8da7169249dc5f822f8b4424fd5731bf67",
+      "bytes": 301880,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-meera"
+    },
+    {
+      "asset_id": "meera:LICENSE.txt",
+      "family": "meera",
+      "repository": "smc/Meera",
+      "commit": "aebe37081332d93e02a83a8649120401967fc379",
+      "source_path": "LICENSE.txt",
+      "sha256": "6e2243d6c1de055b8e625b6c33a6c29880e56df33b601482d9856562ff9b95a1",
+      "bytes": 41424,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-meera"
+    },
+    {
+      "asset_id": "meera:README.md",
+      "family": "meera",
+      "repository": "smc/Meera",
+      "commit": "aebe37081332d93e02a83a8649120401967fc379",
+      "source_path": "README.md",
+      "sha256": "41042d3781afdac127590aabb244b647c0f6d3c1e97cf6e32e2c2c64bde1e125",
+      "bytes": 1752,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-meera"
+    },
+    {
+      "asset_id": "uroob:ttf/Uroob.ttf",
+      "family": "uroob",
+      "repository": "smc/Uroob",
+      "commit": "16de2527b2efbdd4b6ca0b4e402a91b5653595b4",
+      "source_path": "ttf/Uroob.ttf",
+      "sha256": "45a29966508be9dd27c8925f72547201b49361529e64bc084efe5ff9371fd4f4",
+      "bytes": 178520,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-uroob"
+    },
+    {
+      "asset_id": "uroob:LICENSE.txt",
+      "family": "uroob",
+      "repository": "smc/Uroob",
+      "commit": "16de2527b2efbdd4b6ca0b4e402a91b5653595b4",
+      "source_path": "LICENSE.txt",
+      "sha256": "1c159bbe7fd3a06208958ee9b4138caa97ea5506ceb3856dffb6fd10952b763b",
+      "bytes": 4460,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-uroob"
+    },
+    {
+      "asset_id": "uroob:README.md",
+      "family": "uroob",
+      "repository": "smc/Uroob",
+      "commit": "16de2527b2efbdd4b6ca0b4e402a91b5653595b4",
+      "source_path": "README.md",
+      "sha256": "b48af93e0248a29d20ded570e0de589130fe2664e19582ff27cfcc3f4856d7f0",
+      "bytes": 1056,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-uroob"
+    },
+    {
+      "asset_id": "malini:tests/Malini-VF.ttf",
+      "family": "malini",
+      "repository": "smc/Malini",
+      "commit": "cd65132475eb84e90c1c6b52054b7512cf7b06f6",
+      "source_path": "tests/Malini-VF.ttf",
+      "sha256": "5b8dece409970b9def3c1e8a42e69f14a19440b5d961a8f88befa593463c375c",
+      "bytes": 874732,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-malini"
+    },
+    {
+      "asset_id": "malini:OFL.txt",
+      "family": "malini",
+      "repository": "smc/Malini",
+      "commit": "cd65132475eb84e90c1c6b52054b7512cf7b06f6",
+      "source_path": "OFL.txt",
+      "sha256": "3767d366c05981a4206afe9866f94e0f6f30cd0492a0190c1b0359b4845c46dc",
+      "bytes": 4384,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-malini"
+    },
+    {
+      "asset_id": "malini:README.md",
+      "family": "malini",
+      "repository": "smc/Malini",
+      "commit": "cd65132475eb84e90c1c6b52054b7512cf7b06f6",
+      "source_path": "README.md",
+      "sha256": "164c34bae2eee03ee5a879eb952c80e47932abd4312c269ea6638b1c8280b1d5",
+      "bytes": 13855,
+      "status": "approved-for-local-research",
+      "decision_id": "current-corpus-ofl-research-malini"
+    }
+  ]
+}

@@ -28,6 +28,12 @@ class Model:
         self.mean, self.basis, self.templates = mean, basis, templates
         self.template_ids, self.metadata = list(template_ids), dict(metadata)
 
+    @property
+    def capabilities(self):
+        present = self.templates is not None
+        return {"pca_inference": True, "mean_inference": True,
+                "template_baselines": present, "nearest_template_diagnostic": present}
+
     @classmethod
     def fit(cls, labels, fields, families, template_ids, max_rank=12, augment=False):
         started = time.perf_counter()
@@ -56,7 +62,7 @@ class Model:
                    template_ids, {"architecture": "family-weighted joint-sequence SDF PCA with regularized style inference", "training_families": sorted(set(families)), "training_instances": len(original), "fitted_instances_including_synthetic": len(fields), "max_rank": len(basis), "augmentation": augment,
                                   "explained_variance_ratio": variance.tolist(), "fit_seconds": time.perf_counter() - started})
 
-    def infer(self, reference_indices, reference_fields, *, method="pca", rank=4, ridge=0.001, band=False, blend=1.0):
+    def infer(self, reference_indices, reference_fields, *, method="pca", rank=4, ridge=0.001, band=False, blend=1.0, include_template_diagnostics=False):
         indices = np.asarray(reference_indices, dtype=int)
         reference_fields = np.asarray(reference_fields, np.float32)
         if len(indices) < 1 or len(set(indices.tolist())) != len(indices):
@@ -66,14 +72,21 @@ class Model:
         if np.any(indices < 0) or np.any(indices >= len(self.labels)):
             raise ValueError("Observation outside model inventory")
         residual = (reference_fields - self.mean[indices]).reshape(-1)
-        diagnostics = {"uncertainty": "uncalibrated", "provenance": "model-generated", "confirmed": False}
+        diagnostics = {"uncertainty": "uncalibrated", "provenance": "model-generated", "confirmed": False,
+                       "capabilities": self.capabilities, "template_diagnostics_included": False}
+        template_method = method in ["fixed-template", "nearest-template", "template-offset"]
+        if (template_method or include_template_diagnostics) and self.templates is None:
+            raise ValueError("Checkpoint lacks template capability; use PCA/mean without template diagnostics")
+        if method in ["nearest-template", "template-offset"] or include_template_diagnostics:
+            distances = ((self.templates[:, indices] - reference_fields) ** 2).mean(axis=(1, 2, 3))
+            nearest = int(np.argmin(distances))
+            diagnostics["nearest_training_template"] = self.template_ids[nearest]
+            diagnostics["template_diagnostics_included"] = True
         if method == "mean":
             return self.mean.copy(), diagnostics
-        distances = ((self.templates[:, indices] - reference_fields) ** 2).mean(axis=(1, 2, 3))
-        nearest = int(np.argmin(distances))
-        diagnostics["nearest_training_template"] = self.template_ids[nearest]
         if method in ["fixed-template", "nearest-template", "template-offset"]:
             template = self.templates[0 if method == "fixed-template" else nearest].copy()
+            diagnostics["selected_training_template"] = self.template_ids[0 if method == "fixed-template" else nearest]
             if method == "template-offset":
                 near = np.abs(template[indices]) < 0.6
                 delta = float(np.median((reference_fields - template[indices])[near]))
@@ -96,6 +109,8 @@ class Model:
         return np.clip(prediction, -1, 1).astype(np.float32), diagnostics
 
     def save(self, path, inference_config=None):
+        if self.templates is None:
+            raise ValueError("Inference-only models must use export_inference; format 2 requires templates")
         path = Path(path)
         path.parent.mkdir(parents=True, exist_ok=True)
         metadata = {**self.metadata, "inference_config": inference_config or {"method": "pca", "rank": 2, "ridge": 0.001, "band": False, "blend": 1.0}}
@@ -103,9 +118,40 @@ class Model:
                             templates=self.templates, template_ids=np.array(self.template_ids), metadata=np.array(json.dumps(metadata)))
         return hashlib.sha256(path.read_bytes()).hexdigest()
 
+    def export_inference(self, path):
+        """Deterministic inference payload; excludes templates and run timing metadata.
+
+        Removing templates does not settle rights in the learned mean/basis.
+        Source-checkpoint provenance belongs in the caller's separate export record.
+        """
+        path = Path(path)
+        if path.suffix != ".npz":
+            raise ValueError("Inference export requires an explicit .npz filename")
+        if path.exists():
+            raise ValueError("Refusing to overwrite an existing checkpoint")
+        config = self.metadata.get("inference_config", {"method": "pca", "rank": 2, "ridge": 0.001, "band": False, "blend": 1.0})
+        if config.get("method", "pca") not in ["pca", "mean"] or config.get("include_template_diagnostics", False):
+            raise ValueError("Inference profile requires PCA/mean without template diagnostics")
+        metadata = {"profile": "pca-inference-v1", "capabilities": {"pca_inference": True, "mean_inference": True,
+                    "template_baselines": False, "nearest_template_diagnostic": False}, "inference_config": config,
+                    "licensing": "Local research only; template removal does not resolve mean/basis redistribution rights"}
+        path.parent.mkdir(parents=True, exist_ok=True)
+        np.savez_compressed(path, format_version=np.array(3), labels=np.array(self.labels), mean=self.mean, basis=self.basis,
+                            metadata=np.array(json.dumps(metadata, sort_keys=True)))
+        return hashlib.sha256(path.read_bytes()).hexdigest()
+
     @classmethod
     def load(cls, path):
         with np.load(path, allow_pickle=False) as data:
-            if data["format_version"].item() != 2:
+            version = data["format_version"].item()
+            metadata = json.loads(data["metadata"].item())
+            if version == 3:
+                if set(data.files) != {"format_version", "labels", "mean", "basis", "metadata"} or metadata.get("profile") != "pca-inference-v1":
+                    raise ValueError("Invalid inference-only payload/profile")
+                model = cls(data["labels"].tolist(), data["mean"], data["basis"], None, [], metadata)
+                if metadata.get("capabilities") != model.capabilities:
+                    raise ValueError("Checkpoint capability flags contradict payload")
+                return model
+            if version != 2:
                 raise ValueError("Unsupported checkpoint format")
-            return cls(data["labels"].tolist(), data["mean"], data["basis"], data["templates"], data["template_ids"].tolist(), json.loads(data["metadata"].item()))
+            return cls(data["labels"].tolist(), data["mean"], data["basis"], data["templates"], data["template_ids"].tolist(), metadata)
